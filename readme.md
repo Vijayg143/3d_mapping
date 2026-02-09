@@ -2,7 +2,7 @@
 
 # Step 1: Start Gazebo (Terminal 1)
 ```
-cd ~/3d_rover
+cd ~/3d_mapping
 
 source install/setup.bash
 
@@ -21,7 +21,7 @@ ros2 launch k12_description lio_sam.launch.py
 # Step 2: Start 3D Mapping (Terminal 3)
 ```
 
-cd ~/3d_rover && source install/setup.bash
+cd ~/3d_mapping && source install/setup.bash
 
 python3 src/k12_description/scripts/mapping_node.py
 ```
@@ -63,7 +63,7 @@ Key	  --   Action
 
 # To see the map using pcd
 ```
-pcl_viewer ~/3d_rover/maps/map_*.pcd
+pcl_viewer ~/3d_mapping/maps/map_*.pcd
 ```
 
 [Screencast from 02-06-2026 12:18:20 PM.webm](https://github.com/user-attachments/assets/5befdf22-317c-41e6-bf79-2817db81c0bb)
