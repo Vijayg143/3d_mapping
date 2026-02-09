@@ -1,0 +1,1 @@
+/home/vijay/3d_rover/build/lio_sam/rosidl_generator_c/lio_sam/msg/detail/cloud_info__struct.h

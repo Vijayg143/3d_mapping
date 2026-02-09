@@ -1,0 +1,17 @@
+CMake Warning (dev) at CMakeLists.txt:29 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable PCL_ROOT is set to:
+
+    /usr
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+failed to create symbolic link '/home/vijay/3d_rover/build/lio_sam/ament_cmake_python/lio_sam/lio_sam' because existing path cannot be removed: Is a directory
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_lio_sam.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_lio_sam] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:429: CMakeFiles/ament_cmake_python_symlink_lio_sam.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,259 @@
+[0.010s] Invoking command in '/home/vijay/3d_rover/build/lio_sam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/vijay/3d_rover/src/LIO-SAM -DCMAKE_INSTALL_PREFIX=/home/vijay/3d_rover/install/lio_sam
+[0.024s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.144s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.154s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.156s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.159s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.189s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.215s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.248s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.250s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.356s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.393s] -- Found rclpy: 3.3.19 (/opt/ros/humble/share/rclpy/cmake)
+[0.393s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.432s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.452s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.474s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[0.519s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.520s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.549s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.875s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.880s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.019s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.027s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.033s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.159s] -- Found Qhull version 8.0.2
+[1.282s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.416s] -- Found tf2: 0.25.17 (/opt/ros/humble/share/tf2/cmake)
+[1.420s] -- Found tf2_geometry_msgs: 0.25.17 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.426s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.427s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.480s] -- Found tf2_sensor_msgs: 0.25.17 (/opt/ros/humble/share/tf2_sensor_msgs/cmake)
+[1.484s] -- Found tf2_eigen: 0.25.17 (/opt/ros/humble/share/tf2_eigen/cmake)
+[1.488s] [33mCMake Warning (dev) at CMakeLists.txt:29 (find_package):
+[1.489s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[1.489s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[1.489s]   command to set the policy and suppress this warning.
+[1.489s] 
+[1.489s]   CMake variable PCL_ROOT is set to:
+[1.489s] 
+[1.489s]     /usr
+[1.489s] 
+[1.489s]   For compatibility, CMake is ignoring the variable.
+[1.489s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.489s] [0m
+[1.514s] -- GTSAM include directory:  /opt/ros/humble/lib/cmake/GTSAM/../../../include
+[1.523s] -- Found Eigen: /usr/include/eigen3  
+[1.523s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.774s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.994s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.288s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.308s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.332s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.332s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.332s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.417s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.426s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.430s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.431s] -- Configured cppcheck include dirs: /home/vijay/3d_rover/src/LIO-SAM/include/lio_sam
+[2.431s] -- Configured cppcheck exclude dirs and/or files: 
+[2.434s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.434s] -- Configured cpplint exclude dirs and/or files: 
+[2.435s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.435s] -- Added test 'lint_cmake' to check CMake code style
+[2.436s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.439s] -- Added test 'uncrustify' to check C / C++ code style
+[2.439s] -- Configured uncrustify additional arguments: 
+[2.439s] -- Added test 'xmllint' to check XML markup files
+[2.441s] -- Configuring done
+[2.562s] -- Generating done
+[2.596s] -- Build files have been written to: /home/vijay/3d_rover/build/lio_sam
+[2.622s] Invoked command in '/home/vijay/3d_rover/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/vijay/3d_rover/src/LIO-SAM -DCMAKE_INSTALL_PREFIX=/home/vijay/3d_rover/install/lio_sam
+[2.624s] Invoking command in '/home/vijay/3d_rover/build/lio_sam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vijay/3d_rover/build/lio_sam -- -j12 -l12
+[2.663s] [35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_generator_c[0m
+[2.673s] [  4%] Built target lio_sam__cpp
+[2.674s] [ 10%] Built target lio_sam__rosidl_generator_c
+[2.678s] [ 10%] Built target ament_cmake_python_symlink_lio_sam
+[2.684s] [35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_introspection_c[0m
+[2.684s] [35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_introspection_cpp[0m
+[2.686s] [35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_c[0m
+[2.686s] [35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_fastrtps_c[0m
+[2.686s] [35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_cpp[0m
+[2.687s] [35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_fastrtps_cpp[0m
+[2.699s] [ 27%] Built target lio_sam__rosidl_typesupport_introspection_cpp
+[2.699s] [ 27%] Built target lio_sam__rosidl_typesupport_introspection_c
+[2.699s] [ 36%] Built target lio_sam__rosidl_typesupport_c
+[2.703s] [ 53%] Built target lio_sam__rosidl_typesupport_fastrtps_cpp
+[2.703s] [ 53%] Built target lio_sam__rosidl_typesupport_cpp
+[2.705s] [ 61%] Built target lio_sam__rosidl_typesupport_fastrtps_c
+[2.717s] [35m[1mConsolidate compiler generated dependencies of target lio_sam_mapOptimization[0m
+[2.718s] [35m[1mConsolidate compiler generated dependencies of target lio_sam_featureExtraction[0m
+[2.719s] [35m[1mConsolidate compiler generated dependencies of target lio_sam_imageProjection[0m
+[2.722s] [35m[1mConsolidate compiler generated dependencies of target lio_sam_imuPreintegration[0m
+[2.728s] [ 61%] Built target lio_sam
+[2.756s] [ 63%] Built target lio_sam__py
+[2.761s] [ 72%] Built target lio_sam_mapOptimization
+[2.761s] [ 72%] Built target lio_sam_featureExtraction
+[2.766s] [ 76%] Built target lio_sam_imuPreintegration
+[2.768s] [35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_generator_py[0m
+[2.774s] [ 80%] Built target lio_sam_imageProjection
+[2.780s] [ 87%] Built target lio_sam__rosidl_generator_py
+[2.789s] [35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.790s] [35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_introspection_c__pyext[0m
+[2.792s] [35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_c__pyext[0m
+[2.801s] [ 91%] Built target lio_sam__rosidl_typesupport_introspection_c__pyext
+[2.803s] [ 95%] Built target lio_sam__rosidl_typesupport_fastrtps_c__pyext
+[2.803s] [100%] Built target lio_sam__rosidl_typesupport_c__pyext
+[2.911s] running egg_info
+[2.913s] writing lio_sam.egg-info/PKG-INFO
+[2.913s] writing dependency_links to lio_sam.egg-info/dependency_links.txt
+[2.913s] writing top-level names to lio_sam.egg-info/top_level.txt
+[2.919s] reading manifest file 'lio_sam.egg-info/SOURCES.txt'
+[2.919s] writing manifest file 'lio_sam.egg-info/SOURCES.txt'
+[2.948s] [100%] Built target ament_cmake_python_build_lio_sam_egg
+[2.958s] Invoked command in '/home/vijay/3d_rover/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vijay/3d_rover/build/lio_sam -- -j12 -l12
+[2.960s] Invoking command in '/home/vijay/3d_rover/build/lio_sam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vijay/3d_rover/build/lio_sam
+[2.966s] -- Install configuration: "Release"
+[2.966s] -- Execute custom install script
+[2.966s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/ament_index/resource_index/rosidl_interfaces/lio_sam
+[2.967s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/msg/cloud_info.h
+[2.967s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__functions.h
+[2.967s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__struct.h
+[2.967s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__type_support.h
+[2.967s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_generator_c__visibility_control.h
+[2.967s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__functions.h
+[2.967s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__struct.h
+[2.967s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__type_support.h
+[2.967s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/srv/save_map.h
+[2.967s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/environment/library_path.sh
+[2.967s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/environment/library_path.dsv
+[2.968s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_fastrtps_c.h
+[2.968s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.968s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h
+[2.968s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_introspection_c.h
+[2.968s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.968s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_introspection_c.h
+[2.968s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/msg/cloud_info.hpp
+[2.968s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__builder.hpp
+[2.969s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__struct.hpp
+[2.969s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__traits.hpp
+[2.969s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__type_support.hpp
+[2.969s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.969s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__builder.hpp
+[2.969s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__struct.hpp
+[2.969s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__traits.hpp
+[2.969s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__type_support.hpp
+[2.969s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/srv/save_map.hpp
+[2.969s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_fastrtps_cpp.hpp
+[2.969s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.969s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp
+[2.969s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_introspection_cpp.hpp
+[2.969s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp
+[2.969s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/environment/pythonpath.sh
+[2.970s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/environment/pythonpath.dsv
+[2.970s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam-1.0.0-py3.10.egg-info/PKG-INFO
+[2.970s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam-1.0.0-py3.10.egg-info/SOURCES.txt
+[2.970s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam-1.0.0-py3.10.egg-info/dependency_links.txt
+[2.970s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam-1.0.0-py3.10.egg-info/top_level.txt
+[2.970s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/__init__.py
+[2.970s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/_lio_sam_s.ep.rosidl_typesupport_c.c
+[2.971s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/_lio_sam_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.971s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/_lio_sam_s.ep.rosidl_typesupport_introspection_c.c
+[2.971s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/liblio_sam__rosidl_generator_py.so
+[2.971s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.971s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.971s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.971s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg/__init__.py
+[2.971s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg/_cloud_info.py
+[2.971s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg/_cloud_info_s.c
+[2.971s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv/__init__.py
+[2.971s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv/_save_map.py
+[2.971s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv/_save_map_s.c
+[2.971s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.971s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.971s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.971s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/msg/CloudInfo.idl
+[2.971s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/srv/SaveMap.idl
+[2.972s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/msg/CloudInfo.msg
+[2.972s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/srv/SaveMap.srv
+[2.972s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/srv/SaveMap_Request.msg
+[2.972s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/srv/SaveMap_Response.msg
+[2.972s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam//launch/run.launch.py
+[2.972s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam//config/doc/demo.gif
+[2.972s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam//config/doc/device-boat.png
+[2.972s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam//config/doc/device-hand-2.png
+[2.972s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam//config/doc/device-hand.png
+[2.972s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam//config/doc/device-jackal.png
+[2.972s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam//config/doc/gps-demo.gif
+[2.973s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam//config/doc/imu-debug.gif
+[2.973s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam//config/doc/imu-transform.png
+[2.973s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam//config/doc/kitti-demo.gif
+[2.973s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam//config/doc/kitti-map.png
+[2.973s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam//config/doc/kitti2bag/README.md
+[2.973s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam//config/doc/kitti2bag/kitti2bag.py
+[2.973s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam//config/doc/loop-closure-2.gif
+[2.973s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam//config/doc/loop-closure.gif
+[2.973s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam//config/doc/ouster-demo.gif
+[2.973s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam//config/doc/ouster-device.jpg
+[2.973s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam//config/doc/paper.pdf
+[2.973s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam//config/doc/system.png
+[2.973s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam//config/k12.xacro
+[2.973s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam//config/params.yaml
+[2.973s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam//config/rviz2.rviz
+[2.973s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/lib/lio_sam/lio_sam_imageProjection
+[2.973s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/lib/lio_sam/lio_sam_imuPreintegration
+[2.973s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/lib/lio_sam/lio_sam_featureExtraction
+[2.974s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/lib/lio_sam/lio_sam_mapOptimization
+[2.974s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/utility.hpp
+[2.974s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/ament_index/resource_index/package_run_dependencies/lio_sam
+[2.974s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/ament_index/resource_index/parent_prefix_path/lio_sam
+[2.974s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/environment/ament_prefix_path.sh
+[2.974s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/environment/ament_prefix_path.dsv
+[2.974s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/environment/path.sh
+[2.974s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/environment/path.dsv
+[2.974s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/local_setup.bash
+[2.974s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/local_setup.sh
+[2.974s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/local_setup.zsh
+[2.974s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/local_setup.dsv
+[2.974s] -- Symlinking: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/package.dsv
+[2.983s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/ament_index/resource_index/packages/lio_sam
+[2.983s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/cmake/rosidl_cmake-extras.cmake
+[2.983s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.983s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.983s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_libraries-extras.cmake
+[2.983s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_targets-extras.cmake
+[2.983s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.983s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.983s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/cmake/lio_samConfig.cmake
+[2.983s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/cmake/lio_samConfig-version.cmake
+[2.983s] -- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/package.xml
+[2.983s] -- Up-to-date: /home/vijay/3d_rover/install/lio_sam/lib/liblio_sam__rosidl_generator_c.so
+[2.984s] -- Up-to-date: /home/vijay/3d_rover/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_c.so
+[2.984s] -- Up-to-date: /home/vijay/3d_rover/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_c.so
+[2.984s] -- Up-to-date: /home/vijay/3d_rover/install/lio_sam/lib/liblio_sam__rosidl_typesupport_c.so
+[2.984s] -- Up-to-date: /home/vijay/3d_rover/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_cpp.so
+[2.984s] -- Up-to-date: /home/vijay/3d_rover/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_cpp.so
+[2.984s] -- Up-to-date: /home/vijay/3d_rover/install/lio_sam/lib/liblio_sam__rosidl_typesupport_cpp.so
+[3.018s] Listing '/home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam'...
+[3.018s] Compiling '/home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/__init__.py'...
+[3.018s] Listing '/home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg'...
+[3.018s] Listing '/home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv'...
+[3.021s] -- Up-to-date: /home/vijay/3d_rover/install/lio_sam/lib/liblio_sam__rosidl_generator_py.so
+[3.021s] -- Up-to-date: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_cExport.cmake
+[3.022s] -- Up-to-date: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_cExport-release.cmake
+[3.022s] -- Up-to-date: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cExport.cmake
+[3.022s] -- Up-to-date: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cExport-release.cmake
+[3.022s] -- Up-to-date: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cExport.cmake
+[3.022s] -- Up-to-date: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cExport-release.cmake
+[3.022s] -- Up-to-date: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cExport.cmake
+[3.022s] -- Up-to-date: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cExport-release.cmake
+[3.022s] -- Up-to-date: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_cppExport.cmake
+[3.022s] -- Up-to-date: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.022s] -- Up-to-date: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[3.022s] -- Up-to-date: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cppExport.cmake
+[3.023s] -- Up-to-date: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cppExport-release.cmake
+[3.023s] -- Up-to-date: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cppExport.cmake
+[3.023s] -- Up-to-date: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cppExport-release.cmake
+[3.023s] -- Up-to-date: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_pyExport.cmake
+[3.023s] -- Up-to-date: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_pyExport-release.cmake
+[3.026s] Invoked command in '/home/vijay/3d_rover/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vijay/3d_rover/build/lio_sam

@@ -1,0 +1,4 @@
+Invoking command in '/home/vijay/3d_rover/build/k12_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vijay/3d_rover/build/k12_description -- -j12 -l12
+Invoked command in '/home/vijay/3d_rover/build/k12_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vijay/3d_rover/build/k12_description -- -j12 -l12
+Invoking command in '/home/vijay/3d_rover/build/k12_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vijay/3d_rover/build/k12_description
+Invoked command in '/home/vijay/3d_rover/build/k12_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vijay/3d_rover/build/k12_description

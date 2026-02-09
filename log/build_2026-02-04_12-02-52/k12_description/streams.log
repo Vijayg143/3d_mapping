@@ -1,0 +1,123 @@
+[0.012s] Invoking command in '/home/vijay/3d_rover/build/k12_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/vijay/3d_rover/src/k12_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vijay/3d_rover/install/k12_description
+[0.051s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.145s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.158s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.186s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.188s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.195s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.203s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.213s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.245s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.247s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.346s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.439s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.450s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.464s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[0.498s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.538s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.540s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.545s] -- Searching for dependencies of ignition-math6
+[0.547s] -- Looking for OGRE...
+[0.552s] -- Found Ogre Ghadamon (1.9.0)
+[0.552s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.559s] -- Looking for OGRE_Paging...
+[0.559s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.559s] -- Looking for OGRE_Terrain...
+[0.559s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.559s] -- Looking for OGRE_Property...
+[0.559s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.560s] -- Looking for OGRE_RTShaderSystem...
+[0.560s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.560s] -- Looking for OGRE_Volume...
+[0.560s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.560s] -- Looking for OGRE_Overlay...
+[0.560s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.642s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.642s] -- Looking for ignition-transport8 -- found version 8.2.1
+[0.643s] -- Searching for dependencies of ignition-transport8
+[0.657s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.666s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.670s] -- Checking for module 'libzmq >= 4'
+[0.685s] --   Found libzmq , version 4.3.4
+[0.742s] -- Checking for module 'uuid'
+[0.753s] --   Found uuid, version 2.37.2
+[0.779s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.779s] -- Searching for dependencies of ignition-msgs5
+[0.794s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.797s] -- Checking for module 'tinyxml2'
+[0.807s] --   Found tinyxml2, version 9.0.0
+[0.840s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.841s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.841s] -- Searching for dependencies of ignition-common3
+[0.841s] -- Looking for dlfcn.h - found
+[0.841s] -- Looking for libdl - found
+[0.851s] -- Searching for <ignition-common3> component [graphics]
+[0.852s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[0.852s] -- Searching for dependencies of ignition-common3-graphics
+[0.852s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.853s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[0.854s] -- Searching for dependencies of ignition-fuel_tools4
+[0.905s] -- Checking for module 'jsoncpp'
+[0.915s] --   Found jsoncpp, version 1.9.5
+[0.948s] -- Checking for module 'libzip'
+[0.957s] --   Found libzip, version 1.7.3
+[0.985s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.985s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.985s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.987s] -- Gazebo version: 11.10
+[0.989s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[1.009s] -- Found tf2_ros: 0.25.17 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.078s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.163s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.164s] -- Added test 'lint_cmake' to check CMake code style
+[1.164s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.166s] -- Added test 'xmllint' to check XML markup files
+[1.167s] -- Configuring done
+[1.172s] -- Generating done
+[1.174s] -- Build files have been written to: /home/vijay/3d_rover/build/k12_description
+[1.184s] Invoked command in '/home/vijay/3d_rover/build/k12_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/vijay/3d_rover/src/k12_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vijay/3d_rover/install/k12_description
+[1.185s] Invoking command in '/home/vijay/3d_rover/build/k12_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vijay/3d_rover/build/k12_description -- -j12 -l12
+[1.226s] Invoked command in '/home/vijay/3d_rover/build/k12_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vijay/3d_rover/build/k12_description -- -j12 -l12
+[1.234s] Invoking command in '/home/vijay/3d_rover/build/k12_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vijay/3d_rover/build/k12_description
+[1.239s] -- Install configuration: ""
+[1.239s] -- Execute custom install script
+[1.240s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//launch/display.launch.py
+[1.240s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//launch/gazebo.launch.py
+[1.240s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//launch/lio_sam.launch.py
+[1.240s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//launch/mapping.launch.py
+[1.240s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//launch/rover_lio_sam.launch.py
+[1.240s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//launch/simple_mapping.launch.py
+[1.241s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//urdf/k12.gazebo
+[1.241s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//urdf/k12.trans
+[1.241s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//urdf/k12.xacro
+[1.241s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//urdf/materials.xacro
+[1.241s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//meshes/base_link.stl
+[1.241s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//meshes/cam_1.stl
+[1.241s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//meshes/gps_1.stl
+[1.242s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//meshes/imu_1.stl
+[1.242s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//meshes/left_back_1.stl
+[1.242s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//meshes/left_front_1.stl
+[1.242s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//meshes/lidar_1.stl
+[1.242s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//meshes/right_back_1.stl
+[1.242s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//meshes/right_front_1.stl
+[1.242s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//config/mapping.rviz
+[1.242s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//config/nav2.rviz
+[1.243s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//models/my_model/model.config
+[1.243s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//models/my_model/model.sdf
+[1.243s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//worlds/my_world.world
+[1.243s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/ament_index/resource_index/package_run_dependencies/k12_description
+[1.243s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/ament_index/resource_index/parent_prefix_path/k12_description
+[1.244s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description/environment/ament_prefix_path.sh
+[1.244s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description/environment/ament_prefix_path.dsv
+[1.244s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description/environment/path.sh
+[1.244s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description/environment/path.dsv
+[1.244s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description/local_setup.bash
+[1.244s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description/local_setup.sh
+[1.244s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description/local_setup.zsh
+[1.245s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description/local_setup.dsv
+[1.245s] -- Symlinking: /home/vijay/3d_rover/install/k12_description/share/k12_description/package.dsv
+[1.251s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/ament_index/resource_index/packages/k12_description
+[1.251s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description/cmake/k12_descriptionConfig.cmake
+[1.252s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description/cmake/k12_descriptionConfig-version.cmake
+[1.252s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description/package.xml
+[1.253s] Invoked command in '/home/vijay/3d_rover/build/k12_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vijay/3d_rover/build/k12_description

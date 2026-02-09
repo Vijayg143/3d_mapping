@@ -1,0 +1,43 @@
+[0.008s] Invoking command in '/home/vijay/3d_rover/build/k12_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vijay/3d_rover/build/k12_description -- -j12 -l12
+[0.045s] Invoked command in '/home/vijay/3d_rover/build/k12_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vijay/3d_rover/build/k12_description -- -j12 -l12
+[0.054s] Invoking command in '/home/vijay/3d_rover/build/k12_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vijay/3d_rover/build/k12_description
+[0.060s] -- Install configuration: ""
+[0.060s] -- Execute custom install script
+[0.061s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//launch/display.launch.py
+[0.061s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//launch/gazebo.launch.py
+[0.061s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//launch/rover_lio_sam.launch.py
+[0.061s] -- Symlinking: /home/vijay/3d_rover/install/k12_description/share/k12_description//launch/simple_gazebo.launch.py
+[0.068s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//launch/test_gazebo.launch.py
+[0.068s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//urdf/k12.gazebo
+[0.068s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//urdf/k12.trans
+[0.068s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//urdf/k12.xacro
+[0.068s] -- Symlinking: /home/vijay/3d_rover/install/k12_description/share/k12_description//urdf/k12_simple.urdf
+[0.073s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//urdf/materials.xacro
+[0.073s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//urdf/test_robot.urdf
+[0.073s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//meshes/base_link.stl
+[0.073s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//meshes/cam_1.stl
+[0.074s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//meshes/gps_1.stl
+[0.074s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//meshes/imu_1.stl
+[0.074s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//meshes/left_back_1.stl
+[0.074s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//meshes/left_front_1.stl
+[0.074s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//meshes/lidar_1.stl
+[0.074s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//meshes/right_back_1.stl
+[0.074s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//meshes/right_front_1.stl
+[0.074s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//worlds/rover_gazebo.world
+[0.074s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//config/nav2.rviz
+[0.074s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/ament_index/resource_index/package_run_dependencies/k12_description
+[0.074s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/ament_index/resource_index/parent_prefix_path/k12_description
+[0.074s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description/environment/ament_prefix_path.sh
+[0.074s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description/environment/ament_prefix_path.dsv
+[0.074s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description/environment/path.sh
+[0.074s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description/environment/path.dsv
+[0.074s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description/local_setup.bash
+[0.075s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description/local_setup.sh
+[0.075s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description/local_setup.zsh
+[0.075s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description/local_setup.dsv
+[0.075s] -- Symlinking: /home/vijay/3d_rover/install/k12_description/share/k12_description/package.dsv
+[0.081s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/ament_index/resource_index/packages/k12_description
+[0.081s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description/cmake/k12_descriptionConfig.cmake
+[0.081s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description/cmake/k12_descriptionConfig-version.cmake
+[0.081s] -- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description/package.xml
+[0.082s] Invoked command in '/home/vijay/3d_rover/build/k12_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vijay/3d_rover/build/k12_description

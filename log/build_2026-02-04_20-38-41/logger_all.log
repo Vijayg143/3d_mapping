@@ -1,0 +1,194 @@
+[0.116s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'k12_description', '--symlink-install']
+[0.116s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['k12_description'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7e96ac386530>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7e96ac385f60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7e96ac385f60>>, mixin_verb=('build',))
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.309s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/vijay/3d_rover'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(LOAM) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(LOAM) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(LOAM) by extension 'ignore_ament_install'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(LOAM) by extensions ['colcon_pkg']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(LOAM) by extension 'colcon_pkg'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(LOAM) by extensions ['colcon_meta']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(LOAM) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(LOAM) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(LOAM) by extension 'ros'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(LOAM) by extensions ['cmake', 'python']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(LOAM) by extension 'cmake'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(LOAM) by extension 'python'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(LOAM) by extensions ['python_setup_py']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(LOAM) by extension 'python_setup_py'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'ros'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['cmake', 'python']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'cmake'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'python'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['python_setup_py']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'python_setup_py'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(maps/my_map_20260204_194726_bag) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(maps/my_map_20260204_194726_bag) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(maps/my_map_20260204_194726_bag) by extension 'ignore_ament_install'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(maps/my_map_20260204_194726_bag) by extensions ['colcon_pkg']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(maps/my_map_20260204_194726_bag) by extension 'colcon_pkg'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(maps/my_map_20260204_194726_bag) by extensions ['colcon_meta']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(maps/my_map_20260204_194726_bag) by extension 'colcon_meta'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(maps/my_map_20260204_194726_bag) by extensions ['ros']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(maps/my_map_20260204_194726_bag) by extension 'ros'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(maps/my_map_20260204_194726_bag) by extensions ['cmake', 'python']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(maps/my_map_20260204_194726_bag) by extension 'cmake'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(maps/my_map_20260204_194726_bag) by extension 'python'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(maps/my_map_20260204_194726_bag) by extensions ['python_setup_py']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(maps/my_map_20260204_194726_bag) by extension 'python_setup_py'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/LIO-SAM) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/LIO-SAM) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/LIO-SAM) by extension 'ignore_ament_install'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/LIO-SAM) by extensions ['colcon_pkg']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/LIO-SAM) by extension 'colcon_pkg'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/LIO-SAM) by extensions ['colcon_meta']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/LIO-SAM) by extension 'colcon_meta'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/LIO-SAM) by extensions ['ros']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/LIO-SAM) by extension 'ros'
+[0.325s] DEBUG:colcon.colcon_core.package_identification:Package 'src/LIO-SAM' with type 'ros.ament_cmake' and name 'lio_sam'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/k12_description) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/k12_description) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/k12_description) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/k12_description) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/k12_description) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/k12_description) by extensions ['colcon_meta']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/k12_description) by extension 'colcon_meta'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/k12_description) by extensions ['ros']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/k12_description) by extension 'ros'
+[0.327s] DEBUG:colcon.colcon_core.package_identification:Package 'src/k12_description' with type 'ros.ament_cmake' and name 'k12_description'
+[0.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.361s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'lio_sam' in 'src/LIO-SAM'
+[0.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.365s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/vijay/3d_rover/install
+[0.367s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 441 installed packages in /opt/ros/humble
+[0.370s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'k12_description' build argument 'cmake_args' from command line to 'None'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'k12_description' build argument 'cmake_target' from command line to 'None'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'k12_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'k12_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'k12_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'k12_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'k12_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'k12_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'k12_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.414s] DEBUG:colcon.colcon_core.verb:Building package 'k12_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vijay/3d_rover/build/k12_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vijay/3d_rover/install/k12_description', 'merge_install': False, 'path': '/home/vijay/3d_rover/src/k12_description', 'symlink_install': True, 'test_result_base': None}
+[0.414s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.415s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.416s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vijay/3d_rover/src/k12_description' with build type 'ament_cmake'
+[0.416s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vijay/3d_rover/src/k12_description'
+[0.417s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.417s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.417s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.426s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vijay/3d_rover/build/k12_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vijay/3d_rover/build/k12_description -- -j12 -l12
+[0.493s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vijay/3d_rover/build/k12_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vijay/3d_rover/build/k12_description -- -j12 -l12
+[0.504s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vijay/3d_rover/build/k12_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vijay/3d_rover/build/k12_description
+[0.529s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(k12_description)
+[0.530s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vijay/3d_rover/build/k12_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vijay/3d_rover/build/k12_description
+[0.533s] Level 1:colcon.colcon_core.environment:checking '/home/vijay/3d_rover/install/k12_description' for CMake module files
+[0.534s] Level 1:colcon.colcon_core.environment:checking '/home/vijay/3d_rover/install/k12_description' for CMake config files
+[0.535s] Level 1:colcon.colcon_core.shell:create_environment_hook('k12_description', 'cmake_prefix_path')
+[0.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vijay/3d_rover/install/k12_description/share/k12_description/hook/cmake_prefix_path.ps1'
+[0.536s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vijay/3d_rover/install/k12_description/share/k12_description/hook/cmake_prefix_path.dsv'
+[0.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vijay/3d_rover/install/k12_description/share/k12_description/hook/cmake_prefix_path.sh'
+[0.538s] Level 1:colcon.colcon_core.environment:checking '/home/vijay/3d_rover/install/k12_description/lib'
+[0.539s] Level 1:colcon.colcon_core.environment:checking '/home/vijay/3d_rover/install/k12_description/bin'
+[0.539s] Level 1:colcon.colcon_core.environment:checking '/home/vijay/3d_rover/install/k12_description/lib/pkgconfig/k12_description.pc'
+[0.539s] Level 1:colcon.colcon_core.environment:checking '/home/vijay/3d_rover/install/k12_description/lib/python3.10/site-packages'
+[0.540s] Level 1:colcon.colcon_core.environment:checking '/home/vijay/3d_rover/install/k12_description/bin'
+[0.540s] INFO:colcon.colcon_core.shell:Creating package script '/home/vijay/3d_rover/install/k12_description/share/k12_description/package.ps1'
+[0.542s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vijay/3d_rover/install/k12_description/share/k12_description/package.dsv'
+[0.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/vijay/3d_rover/install/k12_description/share/k12_description/package.sh'
+[0.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/vijay/3d_rover/install/k12_description/share/k12_description/package.bash'
+[0.546s] INFO:colcon.colcon_core.shell:Creating package script '/home/vijay/3d_rover/install/k12_description/share/k12_description/package.zsh'
+[0.547s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vijay/3d_rover/install/k12_description/share/colcon-core/packages/k12_description)
+[0.548s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(k12_description)
+[0.548s] Level 1:colcon.colcon_core.environment:checking '/home/vijay/3d_rover/install/k12_description' for CMake module files
+[0.549s] Level 1:colcon.colcon_core.environment:checking '/home/vijay/3d_rover/install/k12_description' for CMake config files
+[0.549s] Level 1:colcon.colcon_core.shell:create_environment_hook('k12_description', 'cmake_prefix_path')
+[0.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vijay/3d_rover/install/k12_description/share/k12_description/hook/cmake_prefix_path.ps1'
+[0.550s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vijay/3d_rover/install/k12_description/share/k12_description/hook/cmake_prefix_path.dsv'
+[0.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vijay/3d_rover/install/k12_description/share/k12_description/hook/cmake_prefix_path.sh'
+[0.552s] Level 1:colcon.colcon_core.environment:checking '/home/vijay/3d_rover/install/k12_description/lib'
+[0.553s] Level 1:colcon.colcon_core.environment:checking '/home/vijay/3d_rover/install/k12_description/bin'
+[0.553s] Level 1:colcon.colcon_core.environment:checking '/home/vijay/3d_rover/install/k12_description/lib/pkgconfig/k12_description.pc'
+[0.553s] Level 1:colcon.colcon_core.environment:checking '/home/vijay/3d_rover/install/k12_description/lib/python3.10/site-packages'
+[0.554s] Level 1:colcon.colcon_core.environment:checking '/home/vijay/3d_rover/install/k12_description/bin'
+[0.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/vijay/3d_rover/install/k12_description/share/k12_description/package.ps1'
+[0.556s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vijay/3d_rover/install/k12_description/share/k12_description/package.dsv'
+[0.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/vijay/3d_rover/install/k12_description/share/k12_description/package.sh'
+[0.558s] INFO:colcon.colcon_core.shell:Creating package script '/home/vijay/3d_rover/install/k12_description/share/k12_description/package.bash'
+[0.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/vijay/3d_rover/install/k12_description/share/k12_description/package.zsh'
+[0.560s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vijay/3d_rover/install/k12_description/share/colcon-core/packages/k12_description)
+[0.560s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.561s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.561s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.561s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.568s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.569s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.569s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.593s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.593s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vijay/3d_rover/install/local_setup.ps1'
+[0.595s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vijay/3d_rover/install/_local_setup_util_ps1.py'
+[0.597s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vijay/3d_rover/install/setup.ps1'
+[0.598s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vijay/3d_rover/install/local_setup.sh'
+[0.598s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vijay/3d_rover/install/_local_setup_util_sh.py'
+[0.599s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vijay/3d_rover/install/setup.sh'
+[0.600s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vijay/3d_rover/install/local_setup.bash'
+[0.600s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vijay/3d_rover/install/setup.bash'
+[0.601s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vijay/3d_rover/install/local_setup.zsh'
+[0.601s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vijay/3d_rover/install/setup.zsh'

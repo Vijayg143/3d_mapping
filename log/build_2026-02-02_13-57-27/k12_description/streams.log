@@ -1,0 +1,39 @@
+[0.011s] Invoking command in '/home/vijay/3d_rover/build/k12_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vijay/3d_rover/build/k12_description -- -j12 -l12
+[0.051s] Invoked command in '/home/vijay/3d_rover/build/k12_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vijay/3d_rover/build/k12_description -- -j12 -l12
+[0.061s] Invoking command in '/home/vijay/3d_rover/build/k12_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vijay/3d_rover/build/k12_description
+[0.068s] -- Install configuration: ""
+[0.068s] -- Up-to-date: /home/vijay/3d_rover/install/k12_description/share/k12_description//launch
+[0.068s] -- Installing: /home/vijay/3d_rover/install/k12_description/share/k12_description//launch/gazebo.launch.py
+[0.068s] -- Up-to-date: /home/vijay/3d_rover/install/k12_description/share/k12_description//launch/rover_lio_sam.launch.py
+[0.068s] -- Up-to-date: /home/vijay/3d_rover/install/k12_description/share/k12_description//launch/display.launch.py
+[0.068s] -- Up-to-date: /home/vijay/3d_rover/install/k12_description/share/k12_description//urdf
+[0.068s] -- Up-to-date: /home/vijay/3d_rover/install/k12_description/share/k12_description//urdf/k12.xacro
+[0.068s] -- Up-to-date: /home/vijay/3d_rover/install/k12_description/share/k12_description//urdf/k12.trans
+[0.068s] -- Up-to-date: /home/vijay/3d_rover/install/k12_description/share/k12_description//urdf/materials.xacro
+[0.068s] -- Installing: /home/vijay/3d_rover/install/k12_description/share/k12_description//urdf/k12.gazebo
+[0.068s] -- Up-to-date: /home/vijay/3d_rover/install/k12_description/share/k12_description//meshes
+[0.068s] -- Up-to-date: /home/vijay/3d_rover/install/k12_description/share/k12_description//meshes/gps_1.stl
+[0.068s] -- Up-to-date: /home/vijay/3d_rover/install/k12_description/share/k12_description//meshes/left_front_1.stl
+[0.068s] -- Up-to-date: /home/vijay/3d_rover/install/k12_description/share/k12_description//meshes/base_link.stl
+[0.069s] -- Up-to-date: /home/vijay/3d_rover/install/k12_description/share/k12_description//meshes/imu_1.stl
+[0.069s] -- Up-to-date: /home/vijay/3d_rover/install/k12_description/share/k12_description//meshes/left_back_1.stl
+[0.069s] -- Up-to-date: /home/vijay/3d_rover/install/k12_description/share/k12_description//meshes/cam_1.stl
+[0.069s] -- Up-to-date: /home/vijay/3d_rover/install/k12_description/share/k12_description//meshes/right_front_1.stl
+[0.069s] -- Up-to-date: /home/vijay/3d_rover/install/k12_description/share/k12_description//meshes/lidar_1.stl
+[0.069s] -- Up-to-date: /home/vijay/3d_rover/install/k12_description/share/k12_description//meshes/right_back_1.stl
+[0.069s] -- Up-to-date: /home/vijay/3d_rover/install/k12_description/share/ament_index/resource_index/package_run_dependencies/k12_description
+[0.069s] -- Up-to-date: /home/vijay/3d_rover/install/k12_description/share/ament_index/resource_index/parent_prefix_path/k12_description
+[0.069s] -- Up-to-date: /home/vijay/3d_rover/install/k12_description/share/k12_description/environment/ament_prefix_path.sh
+[0.069s] -- Up-to-date: /home/vijay/3d_rover/install/k12_description/share/k12_description/environment/ament_prefix_path.dsv
+[0.069s] -- Up-to-date: /home/vijay/3d_rover/install/k12_description/share/k12_description/environment/path.sh
+[0.069s] -- Up-to-date: /home/vijay/3d_rover/install/k12_description/share/k12_description/environment/path.dsv
+[0.069s] -- Up-to-date: /home/vijay/3d_rover/install/k12_description/share/k12_description/local_setup.bash
+[0.069s] -- Up-to-date: /home/vijay/3d_rover/install/k12_description/share/k12_description/local_setup.sh
+[0.069s] -- Up-to-date: /home/vijay/3d_rover/install/k12_description/share/k12_description/local_setup.zsh
+[0.069s] -- Up-to-date: /home/vijay/3d_rover/install/k12_description/share/k12_description/local_setup.dsv
+[0.069s] -- Installing: /home/vijay/3d_rover/install/k12_description/share/k12_description/package.dsv
+[0.069s] -- Up-to-date: /home/vijay/3d_rover/install/k12_description/share/ament_index/resource_index/packages/k12_description
+[0.069s] -- Up-to-date: /home/vijay/3d_rover/install/k12_description/share/k12_description/cmake/k12_descriptionConfig.cmake
+[0.069s] -- Up-to-date: /home/vijay/3d_rover/install/k12_description/share/k12_description/cmake/k12_descriptionConfig-version.cmake
+[0.069s] -- Up-to-date: /home/vijay/3d_rover/install/k12_description/share/k12_description/package.xml
+[0.071s] Invoked command in '/home/vijay/3d_rover/build/k12_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vijay/3d_rover/build/k12_description

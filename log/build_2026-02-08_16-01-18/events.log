@@ -1,0 +1,953 @@
+[0.000000] (-) TimerEvent: {}
+[0.000467] (k12_description) JobQueued: {'identifier': 'k12_description', 'dependencies': OrderedDict()}
+[0.000518] (lio_sam) JobQueued: {'identifier': 'lio_sam', 'dependencies': OrderedDict()}
+[0.000599] (k12_description) JobStarted: {'identifier': 'k12_description'}
+[0.005689] (lio_sam) JobStarted: {'identifier': 'lio_sam'}
+[0.009438] (k12_description) JobProgress: {'identifier': 'k12_description', 'progress': 'cmake'}
+[0.010432] (k12_description) Command: {'cmd': ['/usr/bin/cmake', '/home/vijay/3d_rover/src/k12_description', '-DCMAKE_INSTALL_PREFIX=/home/vijay/3d_rover/install/k12_description'], 'cwd': '/home/vijay/3d_rover/build/k12_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vijay'), ('LC_TIME', 'en_IN.UTF-8'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/vijay/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/221/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vijay/3d_rover/install/lio_sam/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vijay'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '0'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/vijay/3d_rover/src'), ('TERM_PROGRAM_VERSION', '1.109.0'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GTK_PATH', '/snap/code/221/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/vijay/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/221/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_IN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/221/usr/share/code/code'), ('MANAGERPID', '4889'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '5353'), ('BUNDLED_DEBUGPY_PATH', '/home/vijay/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('PYTHONNOUSERSITE', '1'), ('_CONDA_ROOT', '/home/vijay/miniconda3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '422078'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/vijay/3d_rover/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vijay'), ('JOURNAL_STREAM', '8:112253'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/vijay/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'vijay'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/vijay/rover4_ws/src/k12_description/models/:/home/vijay/rover4_ws/src/k12_description/models/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/vijay/PX4-Autopilot/Tools:/home/vijay/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/vijay/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/vijay/.local/bin:/home/vijay/bin:/home/vijay/PX4-Autopilot/Tools:/opt/ros/humble/bin:/home/vijay/miniconda3/condabin:/home/vijay/.cargo/bin:/home/vijay/.local/bin:/home/vijay/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/:/home/vijay/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts:/opt/xtensa-esp-elf/bin/'), ('SESSION_MANAGER', 'local/vijay:@/tmp/.ICE-unix/5330,unix/vijay:/tmp/.ICE-unix/5330'), ('GTK_EXE_PREFIX', '/snap/code/221/usr'), ('INVOCATION_ID', '1444f620c23140d2907fa0f53a06860f'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_IN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LOCPATH', '/snap/code/221/usr/lib/locale'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/vijay/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-af86fbce4e1a1278.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/vijay/.config/Code/User/workspaceStorage/67efb9897b92dc4202899ba9a16a079a/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'en_IN.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/vijay/snap/code/221/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-aa852052d4.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/vijay/snap/code/221/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/vijay/3d_rover/install/lio_sam:/home/vijay/3d_rover/install/k12_description:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/vijay/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_IN.UTF-8'), ('ZENOH_CONNECT', 'tcp/10.147.42.82:7447'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'en_IN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/vijay/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'en_IN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vijay/3d_rover/build/k12_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('CONDA_EXE', '/home/vijay/miniconda3/bin/conda'), ('GAZEBO_PLUGIN_PATH', '/opt/ros/humble/lib:/opt/ros/humble/lib:'), ('XDG_DATA_DIRS', '/home/vijay/snap/code/221/.local/share/flatpak/exports/share:/home/vijay/snap/code/221/.local/share:/home/vijay/snap/code/221:/snap/code/221/usr/share:/usr/share/ubuntu-xorg:/usr/share/gnome:/home/vijay/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_IN.UTF-8'), ('LC_PAPER', 'en_IN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/vijay/3d_rover/install/lio_sam:/home/vijay/3d_rover/install/k12_description:/opt/ros/humble')]), 'shell': False}
+[0.013264] (lio_sam) JobProgress: {'identifier': 'lio_sam', 'progress': 'cmake'}
+[0.015133] (lio_sam) JobProgress: {'identifier': 'lio_sam', 'progress': 'build'}
+[0.015315] (lio_sam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vijay/3d_rover/build/lio_sam', '--', '-j12', '-l12'], 'cwd': '/home/vijay/3d_rover/build/lio_sam', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vijay'), ('LC_TIME', 'en_IN.UTF-8'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/vijay/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/221/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vijay/3d_rover/install/lio_sam/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vijay'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '0'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/vijay/3d_rover/src'), ('TERM_PROGRAM_VERSION', '1.109.0'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GTK_PATH', '/snap/code/221/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/vijay/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/221/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_IN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/221/usr/share/code/code'), ('MANAGERPID', '4889'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '5353'), ('BUNDLED_DEBUGPY_PATH', '/home/vijay/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('PYTHONNOUSERSITE', '1'), ('_CONDA_ROOT', '/home/vijay/miniconda3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '422078'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/vijay/3d_rover/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vijay'), ('JOURNAL_STREAM', '8:112253'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/vijay/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'vijay'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/vijay/rover4_ws/src/k12_description/models/:/home/vijay/rover4_ws/src/k12_description/models/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/vijay/PX4-Autopilot/Tools:/home/vijay/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/vijay/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/vijay/.local/bin:/home/vijay/bin:/home/vijay/PX4-Autopilot/Tools:/opt/ros/humble/bin:/home/vijay/miniconda3/condabin:/home/vijay/.cargo/bin:/home/vijay/.local/bin:/home/vijay/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/:/home/vijay/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts:/opt/xtensa-esp-elf/bin/'), ('SESSION_MANAGER', 'local/vijay:@/tmp/.ICE-unix/5330,unix/vijay:/tmp/.ICE-unix/5330'), ('GTK_EXE_PREFIX', '/snap/code/221/usr'), ('INVOCATION_ID', '1444f620c23140d2907fa0f53a06860f'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_IN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LOCPATH', '/snap/code/221/usr/lib/locale'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/vijay/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-af86fbce4e1a1278.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/vijay/.config/Code/User/workspaceStorage/67efb9897b92dc4202899ba9a16a079a/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'en_IN.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/vijay/snap/code/221/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-aa852052d4.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/vijay/snap/code/221/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/vijay/3d_rover/install/lio_sam:/home/vijay/3d_rover/install/k12_description:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/vijay/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_IN.UTF-8'), ('ZENOH_CONNECT', 'tcp/10.147.42.82:7447'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'en_IN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/vijay/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'en_IN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vijay/3d_rover/build/lio_sam'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('CONDA_EXE', '/home/vijay/miniconda3/bin/conda'), ('GAZEBO_PLUGIN_PATH', '/opt/ros/humble/lib:/opt/ros/humble/lib:'), ('XDG_DATA_DIRS', '/home/vijay/snap/code/221/.local/share/flatpak/exports/share:/home/vijay/snap/code/221/.local/share:/home/vijay/snap/code/221:/snap/code/221/usr/share:/usr/share/ubuntu-xorg:/usr/share/gnome:/home/vijay/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_IN.UTF-8'), ('LC_PAPER', 'en_IN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/vijay/3d_rover/install/lio_sam:/home/vijay/3d_rover/install/k12_description:/opt/ros/humble')]), 'shell': False}
+[0.039078] (k12_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.054262] (lio_sam) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099949] (-) TimerEvent: {}
+[0.141200] (k12_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.147105] (lio_sam) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.153968] (k12_description) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.154131] (lio_sam) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.155973] (lio_sam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.159066] (lio_sam) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.179726] (k12_description) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.181007] (k12_description) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.185269] (k12_description) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.185603] (lio_sam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.192346] (k12_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.199536] (k12_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.200009] (-) TimerEvent: {}
+[0.202734] (lio_sam) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.233124] (lio_sam) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.233341] (k12_description) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.235080] (k12_description) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.235277] (lio_sam) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.300246] (-) TimerEvent: {}
+[0.332236] (lio_sam) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.335191] (k12_description) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.372943] (lio_sam) StdoutLine: {'line': b'-- Found rclpy: 3.3.19 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[0.373343] (lio_sam) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.376018] (k12_description) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.385233] (k12_description) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.396798] (k12_description) StdoutLine: {'line': b'-- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[0.399472] (lio_sam) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.400304] (-) TimerEvent: {}
+[0.416289] (lio_sam) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[0.433461] (k12_description) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[0.434541] (lio_sam) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[0.463692] (lio_sam) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[0.463828] (lio_sam) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.464321] (k12_description) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[0.466140] (k12_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.470675] (k12_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[0.472128] (k12_description) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[0.477243] (k12_description) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[0.477567] (k12_description) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[0.486776] (lio_sam) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[0.486961] (k12_description) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[0.487013] (k12_description) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[0.487048] (k12_description) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[0.487160] (k12_description) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[0.487207] (k12_description) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[0.487254] (k12_description) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[0.487283] (k12_description) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[0.487321] (k12_description) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[0.487360] (k12_description) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[0.487407] (k12_description) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[0.487445] (k12_description) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[0.487516] (k12_description) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[0.500426] (-) TimerEvent: {}
+[0.579369] (k12_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.580114] (k12_description) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[0.580499] (k12_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[0.594448] (k12_description) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[0.600613] (-) TimerEvent: {}
+[0.604213] (k12_description) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[0.610020] (k12_description) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[0.628638] (k12_description) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[0.662016] (k12_description) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[0.671027] (k12_description) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[0.697362] (k12_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[0.697704] (k12_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[0.700689] (-) TimerEvent: {}
+[0.714504] (k12_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.719635] (k12_description) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[0.731619] (k12_description) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[0.759002] (k12_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[0.759802] (k12_description) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[0.759994] (k12_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[0.760153] (k12_description) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[0.760247] (k12_description) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[0.788578] (k12_description) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[0.789084] (k12_description) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[0.789370] (k12_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[0.789554] (k12_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.790901] (k12_description) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[0.791155] (k12_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[0.800784] (-) TimerEvent: {}
+[0.814434] (lio_sam) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[0.820460] (lio_sam) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[0.825720] (k12_description) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[0.837039] (k12_description) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[0.869479] (k12_description) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[0.880185] (k12_description) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[0.900992] (-) TimerEvent: {}
+[0.907104] (k12_description) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[0.907381] (k12_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.907659] (k12_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[0.910126] (k12_description) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[0.911357] (k12_description) StdoutLine: {'line': b'-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)\n'}
+[0.938647] (lio_sam) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.940765] (k12_description) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.18 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.944217] (lio_sam) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[0.949958] (lio_sam) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.001199] (-) TimerEvent: {}
+[1.001567] (k12_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.049161] (lio_sam) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[1.090257] (k12_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.090837] (k12_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.091313] (k12_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.092905] (k12_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.094024] (k12_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.098278] (k12_description) StdoutLine: {'line': b'-- Generating done\n'}
+[1.100722] (k12_description) StdoutLine: {'line': b'-- Build files have been written to: /home/vijay/3d_rover/build/k12_description\n'}
+[1.101248] (-) TimerEvent: {}
+[1.108635] (k12_description) CommandEnded: {'returncode': 0}
+[1.112431] (k12_description) JobProgress: {'identifier': 'k12_description', 'progress': 'build'}
+[1.112500] (k12_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vijay/3d_rover/build/k12_description', '--', '-j12', '-l12'], 'cwd': '/home/vijay/3d_rover/build/k12_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vijay'), ('LC_TIME', 'en_IN.UTF-8'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/vijay/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/221/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vijay/3d_rover/install/lio_sam/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vijay'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '0'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/vijay/3d_rover/src'), ('TERM_PROGRAM_VERSION', '1.109.0'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GTK_PATH', '/snap/code/221/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/vijay/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/221/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_IN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/221/usr/share/code/code'), ('MANAGERPID', '4889'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '5353'), ('BUNDLED_DEBUGPY_PATH', '/home/vijay/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('PYTHONNOUSERSITE', '1'), ('_CONDA_ROOT', '/home/vijay/miniconda3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '422078'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/vijay/3d_rover/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vijay'), ('JOURNAL_STREAM', '8:112253'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/vijay/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'vijay'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/vijay/rover4_ws/src/k12_description/models/:/home/vijay/rover4_ws/src/k12_description/models/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/vijay/PX4-Autopilot/Tools:/home/vijay/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/vijay/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/vijay/.local/bin:/home/vijay/bin:/home/vijay/PX4-Autopilot/Tools:/opt/ros/humble/bin:/home/vijay/miniconda3/condabin:/home/vijay/.cargo/bin:/home/vijay/.local/bin:/home/vijay/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/:/home/vijay/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts:/opt/xtensa-esp-elf/bin/'), ('SESSION_MANAGER', 'local/vijay:@/tmp/.ICE-unix/5330,unix/vijay:/tmp/.ICE-unix/5330'), ('GTK_EXE_PREFIX', '/snap/code/221/usr'), ('INVOCATION_ID', '1444f620c23140d2907fa0f53a06860f'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_IN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LOCPATH', '/snap/code/221/usr/lib/locale'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/vijay/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-af86fbce4e1a1278.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/vijay/.config/Code/User/workspaceStorage/67efb9897b92dc4202899ba9a16a079a/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'en_IN.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/vijay/snap/code/221/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-aa852052d4.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/vijay/snap/code/221/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/vijay/3d_rover/install/lio_sam:/home/vijay/3d_rover/install/k12_description:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/vijay/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_IN.UTF-8'), ('ZENOH_CONNECT', 'tcp/10.147.42.82:7447'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'en_IN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/vijay/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'en_IN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vijay/3d_rover/build/k12_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('CONDA_EXE', '/home/vijay/miniconda3/bin/conda'), ('GAZEBO_PLUGIN_PATH', '/opt/ros/humble/lib:/opt/ros/humble/lib:'), ('XDG_DATA_DIRS', '/home/vijay/snap/code/221/.local/share/flatpak/exports/share:/home/vijay/snap/code/221/.local/share:/home/vijay/snap/code/221:/snap/code/221/usr/share:/usr/share/ubuntu-xorg:/usr/share/gnome:/home/vijay/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_IN.UTF-8'), ('LC_PAPER', 'en_IN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/vijay/3d_rover/install/lio_sam:/home/vijay/3d_rover/install/k12_description:/opt/ros/humble')]), 'shell': False}
+[1.144332] (k12_description) CommandEnded: {'returncode': 0}
+[1.145074] (k12_description) JobProgress: {'identifier': 'k12_description', 'progress': 'install'}
+[1.153065] (k12_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vijay/3d_rover/build/k12_description'], 'cwd': '/home/vijay/3d_rover/build/k12_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vijay'), ('LC_TIME', 'en_IN.UTF-8'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/vijay/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/221/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vijay/3d_rover/install/lio_sam/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vijay'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '0'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/vijay/3d_rover/src'), ('TERM_PROGRAM_VERSION', '1.109.0'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GTK_PATH', '/snap/code/221/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/vijay/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/221/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_IN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/221/usr/share/code/code'), ('MANAGERPID', '4889'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '5353'), ('BUNDLED_DEBUGPY_PATH', '/home/vijay/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('PYTHONNOUSERSITE', '1'), ('_CONDA_ROOT', '/home/vijay/miniconda3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '422078'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/vijay/3d_rover/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vijay'), ('JOURNAL_STREAM', '8:112253'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/vijay/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'vijay'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/vijay/rover4_ws/src/k12_description/models/:/home/vijay/rover4_ws/src/k12_description/models/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/vijay/PX4-Autopilot/Tools:/home/vijay/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/vijay/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/vijay/.local/bin:/home/vijay/bin:/home/vijay/PX4-Autopilot/Tools:/opt/ros/humble/bin:/home/vijay/miniconda3/condabin:/home/vijay/.cargo/bin:/home/vijay/.local/bin:/home/vijay/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/:/home/vijay/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts:/opt/xtensa-esp-elf/bin/'), ('SESSION_MANAGER', 'local/vijay:@/tmp/.ICE-unix/5330,unix/vijay:/tmp/.ICE-unix/5330'), ('GTK_EXE_PREFIX', '/snap/code/221/usr'), ('INVOCATION_ID', '1444f620c23140d2907fa0f53a06860f'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_IN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LOCPATH', '/snap/code/221/usr/lib/locale'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/vijay/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-af86fbce4e1a1278.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/vijay/.config/Code/User/workspaceStorage/67efb9897b92dc4202899ba9a16a079a/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'en_IN.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/vijay/snap/code/221/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-aa852052d4.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/vijay/snap/code/221/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/vijay/3d_rover/install/lio_sam:/home/vijay/3d_rover/install/k12_description:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/vijay/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_IN.UTF-8'), ('ZENOH_CONNECT', 'tcp/10.147.42.82:7447'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'en_IN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/vijay/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'en_IN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vijay/3d_rover/build/k12_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('CONDA_EXE', '/home/vijay/miniconda3/bin/conda'), ('GAZEBO_PLUGIN_PATH', '/opt/ros/humble/lib:/opt/ros/humble/lib:'), ('XDG_DATA_DIRS', '/home/vijay/snap/code/221/.local/share/flatpak/exports/share:/home/vijay/snap/code/221/.local/share:/home/vijay/snap/code/221:/snap/code/221/usr/share:/usr/share/ubuntu-xorg:/usr/share/gnome:/home/vijay/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_IN.UTF-8'), ('LC_PAPER', 'en_IN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/vijay/3d_rover/install/lio_sam:/home/vijay/3d_rover/install/k12_description:/opt/ros/humble')]), 'shell': False}
+[1.158527] (lio_sam) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.160968] (k12_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.161357] (k12_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.161655] (k12_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//launch/display.launch.py\n'}
+[1.161706] (k12_description) StdoutLine: {'line': b'-- Symlinking: /home/vijay/3d_rover/install/k12_description/share/k12_description//launch/ekf.launch.py\n'}
+[1.167843] (k12_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//launch/gazebo.launch.py\n'}
+[1.167989] (k12_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//launch/lio_sam.launch.py\n'}
+[1.168087] (k12_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//launch/mapping.launch.py\n'}
+[1.168171] (k12_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//launch/rtabmap.launch.py\n'}
+[1.168233] (k12_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//launch/rtabmap_mapping.launch.py\n'}
+[1.168295] (k12_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//urdf/k12.gazebo\n'}
+[1.168355] (k12_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//urdf/k12.trans\n'}
+[1.168416] (k12_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//urdf/k12.xacro\n'}
+[1.168505] (k12_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//urdf/materials.xacro\n'}
+[1.168566] (k12_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//meshes/base_link.stl\n'}
+[1.168626] (k12_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//meshes/cam_1.stl\n'}
+[1.168712] (k12_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//meshes/gps_1.stl\n'}
+[1.168774] (k12_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//meshes/imu_1.stl\n'}
+[1.168834] (k12_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//meshes/left_back_1.stl\n'}
+[1.168894] (k12_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//meshes/left_front_1.stl\n'}
+[1.168954] (k12_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//meshes/lidar_1.stl\n'}
+[1.169013] (k12_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//meshes/right_back_1.stl\n'}
+[1.169196] (k12_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//meshes/right_front_1.stl\n'}
+[1.169276] (k12_description) StdoutLine: {'line': b'-- Symlinking: /home/vijay/3d_rover/install/k12_description/share/k12_description//config/ekf.yaml\n'}
+[1.176365] (k12_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//config/mapping.rviz\n'}
+[1.176527] (k12_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//config/mapping_3d.rviz\n'}
+[1.176595] (k12_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//config/nav2.rviz\n'}
+[1.176685] (k12_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//models/my_model/model.config\n'}
+[1.176753] (k12_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//models/my_model/model.sdf\n'}
+[1.176838] (k12_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//worlds/empty_world.world\n'}
+[1.176903] (k12_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description//worlds/my_world.world\n'}
+[1.176989] (k12_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/ament_index/resource_index/package_run_dependencies/k12_description\n'}
+[1.177057] (k12_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/ament_index/resource_index/parent_prefix_path/k12_description\n'}
+[1.177148] (k12_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description/environment/ament_prefix_path.sh\n'}
+[1.177212] (k12_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description/environment/ament_prefix_path.dsv\n'}
+[1.177298] (k12_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description/environment/path.sh\n'}
+[1.177364] (k12_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description/environment/path.dsv\n'}
+[1.177442] (k12_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description/local_setup.bash\n'}
+[1.177504] (k12_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description/local_setup.sh\n'}
+[1.177593] (k12_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description/local_setup.zsh\n'}
+[1.177654] (k12_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description/local_setup.dsv\n'}
+[1.177713] (k12_description) StdoutLine: {'line': b'-- Symlinking: /home/vijay/3d_rover/install/k12_description/share/k12_description/package.dsv\n'}
+[1.185092] (k12_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/ament_index/resource_index/packages/k12_description\n'}
+[1.185316] (k12_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description/cmake/k12_descriptionConfig.cmake\n'}
+[1.185387] (k12_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description/cmake/k12_descriptionConfig-version.cmake\n'}
+[1.185451] (k12_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/k12_description/share/k12_description/package.xml\n'}
+[1.185511] (k12_description) StdoutLine: {'line': b'-- Up-to-date: /home/vijay/3d_rover/install/k12_description/lib/k12_description/mapping_node\n'}
+[1.186802] (k12_description) CommandEnded: {'returncode': 0}
+[1.201134] (k12_description) JobEnded: {'identifier': 'k12_description', 'rc': 0}
+[1.201496] (-) TimerEvent: {}
+[1.266862] (lio_sam) StdoutLine: {'line': b'-- Found tf2: 0.25.18 (/opt/ros/humble/share/tf2/cmake)\n'}
+[1.270390] (lio_sam) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.18 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[1.274077] (lio_sam) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.275191] (lio_sam) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.301634] (-) TimerEvent: {}
+[1.325866] (lio_sam) StdoutLine: {'line': b'-- Found tf2_sensor_msgs: 0.25.18 (/opt/ros/humble/share/tf2_sensor_msgs/cmake)\n'}
+[1.329379] (lio_sam) StdoutLine: {'line': b'-- Found tf2_eigen: 0.25.18 (/opt/ros/humble/share/tf2_eigen/cmake)\n'}
+[1.333897] (lio_sam) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:29 (find_package):\n'}
+[1.334089] (lio_sam) StderrLine: {'line': b'  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.\n'}
+[1.334163] (lio_sam) StderrLine: {'line': b'  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy\n'}
+[1.334228] (lio_sam) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[1.334290] (lio_sam) StderrLine: {'line': b'\n'}
+[1.334350] (lio_sam) StderrLine: {'line': b'  CMake variable PCL_ROOT is set to:\n'}
+[1.334410] (lio_sam) StderrLine: {'line': b'\n'}
+[1.334468] (lio_sam) StderrLine: {'line': b'    /usr\n'}
+[1.334527] (lio_sam) StderrLine: {'line': b'\n'}
+[1.334585] (lio_sam) StderrLine: {'line': b'  For compatibility, CMake is ignoring the variable.\n'}
+[1.334645] (lio_sam) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.334705] (lio_sam) StderrLine: {'line': b'\x1b[0m\n'}
+[1.352302] (lio_sam) StdoutLine: {'line': b'-- GTSAM include directory:  /opt/ros/humble/lib/cmake/GTSAM/../../../include\n'}
+[1.357236] (lio_sam) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3  \n'}
+[1.357397] (lio_sam) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.401754] (-) TimerEvent: {}
+[1.502071] (-) TimerEvent: {}
+[1.570776] (lio_sam) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.602213] (-) TimerEvent: {}
+[1.702555] (-) TimerEvent: {}
+[1.783663] (lio_sam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.802657] (-) TimerEvent: {}
+[1.902972] (-) TimerEvent: {}
+[2.003265] (-) TimerEvent: {}
+[2.053785] (lio_sam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.073396] (lio_sam) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.090739] (lio_sam) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.091024] (lio_sam) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.091143] (lio_sam) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.103368] (-) TimerEvent: {}
+[2.182668] (lio_sam) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.193020] (lio_sam) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.196091] (lio_sam) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.197177] (lio_sam) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/vijay/3d_rover/src/LIO-SAM/include/lio_sam\n'}
+[2.197285] (lio_sam) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.199997] (lio_sam) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.200168] (lio_sam) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.200545] (lio_sam) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.201343] (lio_sam) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.201691] (lio_sam) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.203459] (-) TimerEvent: {}
+[2.204551] (lio_sam) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.204696] (lio_sam) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.205004] (lio_sam) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.207358] (lio_sam) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.303648] (-) TimerEvent: {}
+[2.322303] (lio_sam) StdoutLine: {'line': b'-- Generating done\n'}
+[2.356433] (lio_sam) StdoutLine: {'line': b'-- Build files have been written to: /home/vijay/3d_rover/build/lio_sam\n'}
+[2.397305] (lio_sam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_generator_c\x1b[0m\n'}
+[2.403774] (-) TimerEvent: {}
+[2.407956] (lio_sam) StdoutLine: {'line': b'[  2%] \x1b[32m\x1b[1mLinking C shared library liblio_sam__rosidl_generator_c.so\x1b[0m\n'}
+[2.408200] (lio_sam) StdoutLine: {'line': b'[  4%] Built target lio_sam__cpp\n'}
+[2.418115] (lio_sam) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_symlink_lio_sam\n'}
+[2.422219] (lio_sam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.422460] (lio_sam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.422850] (lio_sam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.435657] (lio_sam) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lio_sam/msg/detail/dds_fastrtps/cloud_info__type_support.cpp.o\x1b[0m\n'}
+[2.436537] (lio_sam) StdoutLine: {'line': b'[  8%] \x1b[32m\x1b[1mLinking CXX shared library liblio_sam__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.436756] (lio_sam) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lio_sam/srv/detail/dds_fastrtps/save_map__type_support.cpp.o\x1b[0m\n'}
+[2.439680] (lio_sam) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking CXX shared library liblio_sam__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.456774] (lio_sam) StdoutLine: {'line': b'[ 19%] Built target lio_sam__rosidl_generator_c\n'}
+[2.467874] (lio_sam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_c\x1b[0m\n'}
+[2.468241] (lio_sam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[2.469952] (lio_sam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[2.479717] (lio_sam) StdoutLine: {'line': b'[ 21%] \x1b[32m\x1b[1mLinking CXX shared library liblio_sam__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.481660] (lio_sam) StdoutLine: {'line': b'[ 23%] \x1b[32m\x1b[1mLinking C shared library liblio_sam__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.486244] (lio_sam) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lio_sam/msg/detail/cloud_info__type_support_c.cpp.o\x1b[0m\n'}
+[2.486569] (lio_sam) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lio_sam/srv/detail/save_map__type_support_c.cpp.o\x1b[0m\n'}
+[2.486789] (lio_sam) StdoutLine: {'line': b'[ 34%] Built target lio_sam__rosidl_typesupport_cpp\n'}
+[2.502139] (lio_sam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lio_sam_featureExtraction\x1b[0m\n'}
+[2.503869] (-) TimerEvent: {}
+[2.504614] (lio_sam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lio_sam_imuPreintegration\x1b[0m\n'}
+[2.506773] (lio_sam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lio_sam_mapOptimization\x1b[0m\n'}
+[2.511185] (lio_sam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lio_sam_imageProjection\x1b[0m\n'}
+[2.527874] (lio_sam) StdoutLine: {'line': b'[ 40%] Built target lio_sam__rosidl_typesupport_introspection_c\n'}
+[2.540410] (lio_sam) StdoutLine: {'line': b'[ 48%] Built target lio_sam__rosidl_typesupport_introspection_cpp\n'}
+[2.540585] (lio_sam) StdoutLine: {'line': b'[ 53%] Built target lio_sam__rosidl_typesupport_c\n'}
+[2.560211] (lio_sam) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/lio_sam_featureExtraction.dir/src/featureExtraction.cpp.o\x1b[0m\n'}
+[2.571895] (lio_sam) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/lio_sam_imageProjection.dir/src/imageProjection.cpp.o\x1b[0m\n'}
+[2.572136] (lio_sam) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/lio_sam_mapOptimization.dir/src/mapOptmization.cpp.o\x1b[0m\n'}
+[2.585003] (lio_sam) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/lio_sam_imuPreintegration.dir/src/imuPreintegration.cpp.o\x1b[0m\n'}
+[2.603975] (-) TimerEvent: {}
+[2.704295] (-) TimerEvent: {}
+[2.763946] (lio_sam) StdoutLine: {'line': b'running egg_info\n'}
+[2.764272] (lio_sam) StdoutLine: {'line': b'writing lio_sam.egg-info/PKG-INFO\n'}
+[2.764842] (lio_sam) StdoutLine: {'line': b'writing dependency_links to lio_sam.egg-info/dependency_links.txt\n'}
+[2.765275] (lio_sam) StdoutLine: {'line': b'writing top-level names to lio_sam.egg-info/top_level.txt\n'}
+[2.771208] (lio_sam) StdoutLine: {'line': b"reading manifest file 'lio_sam.egg-info/SOURCES.txt'\n"}
+[2.774678] (lio_sam) StdoutLine: {'line': b"writing manifest file 'lio_sam.egg-info/SOURCES.txt'\n"}
+[2.804420] (-) TimerEvent: {}
+[2.808968] (lio_sam) StdoutLine: {'line': b'[ 61%] Built target ament_cmake_python_build_lio_sam_egg\n'}
+[2.904535] (-) TimerEvent: {}
+[2.984124] (lio_sam) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library liblio_sam__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.004657] (-) TimerEvent: {}
+[3.072020] (lio_sam) StdoutLine: {'line': b'[ 65%] Built target lio_sam__rosidl_typesupport_fastrtps_c\n'}
+[3.104771] (-) TimerEvent: {}
+[3.162242] (lio_sam) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library liblio_sam__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.204906] (-) TimerEvent: {}
+[3.255928] (lio_sam) StdoutLine: {'line': b'[ 70%] Built target lio_sam__rosidl_typesupport_fastrtps_cpp\n'}
+[3.275603] (lio_sam) StdoutLine: {'line': b'[ 70%] Built target lio_sam\n'}
+[3.298486] (lio_sam) StdoutLine: {'line': b'[ 72%] Built target lio_sam__py\n'}
+[3.305022] (-) TimerEvent: {}
+[3.309392] (lio_sam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_generator_py\x1b[0m\n'}
+[3.323757] (lio_sam) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/lio_sam/liblio_sam__rosidl_generator_py.so\x1b[0m\n'}
+[3.373147] (lio_sam) StdoutLine: {'line': b'[ 78%] Built target lio_sam__rosidl_generator_py\n'}
+[3.384547] (lio_sam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[3.385664] (lio_sam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[3.385793] (lio_sam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[3.395314] (lio_sam) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/lio_sam__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/lio_sam/_lio_sam_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.396205] (lio_sam) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/lio_sam__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/lio_sam/_lio_sam_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.397586] (lio_sam) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/lio_sam__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/lio_sam/_lio_sam_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.405123] (-) TimerEvent: {}
+[3.509125] (-) TimerEvent: {}
+[3.533365] (lio_sam) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/lio_sam/lio_sam_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.533619] (lio_sam) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.533694] (lio_sam) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.581887] (lio_sam) StdoutLine: {'line': b'[ 91%] Built target lio_sam__rosidl_typesupport_c__pyext\n'}
+[3.582114] (lio_sam) StdoutLine: {'line': b'[ 91%] Built target lio_sam__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.585150] (lio_sam) StdoutLine: {'line': b'[ 91%] Built target lio_sam__rosidl_typesupport_introspection_c__pyext\n'}
+[3.609224] (-) TimerEvent: {}
+[3.709567] (-) TimerEvent: {}
+[3.810071] (-) TimerEvent: {}
+[3.910405] (-) TimerEvent: {}
+[4.010705] (-) TimerEvent: {}
+[4.110994] (-) TimerEvent: {}
+[4.211289] (-) TimerEvent: {}
+[4.311581] (-) TimerEvent: {}
+[4.411883] (-) TimerEvent: {}
+[4.512307] (-) TimerEvent: {}
+[4.612791] (-) TimerEvent: {}
+[4.713109] (-) TimerEvent: {}
+[4.813393] (-) TimerEvent: {}
+[4.913689] (-) TimerEvent: {}
+[5.013991] (-) TimerEvent: {}
+[5.114317] (-) TimerEvent: {}
+[5.214648] (-) TimerEvent: {}
+[5.314982] (-) TimerEvent: {}
+[5.415365] (-) TimerEvent: {}
+[5.515706] (-) TimerEvent: {}
+[5.616069] (-) TimerEvent: {}
+[5.716458] (-) TimerEvent: {}
+[5.816814] (-) TimerEvent: {}
+[5.917117] (-) TimerEvent: {}
+[6.017414] (-) TimerEvent: {}
+[6.117750] (-) TimerEvent: {}
+[6.218132] (-) TimerEvent: {}
+[6.318558] (-) TimerEvent: {}
+[6.418961] (-) TimerEvent: {}
+[6.519274] (-) TimerEvent: {}
+[6.619584] (-) TimerEvent: {}
+[6.719901] (-) TimerEvent: {}
+[6.820230] (-) TimerEvent: {}
+[6.920529] (-) TimerEvent: {}
+[7.020856] (-) TimerEvent: {}
+[7.121269] (-) TimerEvent: {}
+[7.221620] (-) TimerEvent: {}
+[7.322050] (-) TimerEvent: {}
+[7.422349] (-) TimerEvent: {}
+[7.522800] (-) TimerEvent: {}
+[7.623137] (-) TimerEvent: {}
+[7.723495] (-) TimerEvent: {}
+[7.823830] (-) TimerEvent: {}
+[7.924184] (-) TimerEvent: {}
+[8.024551] (-) TimerEvent: {}
+[8.124870] (-) TimerEvent: {}
+[8.225159] (-) TimerEvent: {}
+[8.325506] (-) TimerEvent: {}
+[8.425903] (-) TimerEvent: {}
+[8.526213] (-) TimerEvent: {}
+[8.626563] (-) TimerEvent: {}
+[8.726873] (-) TimerEvent: {}
+[8.827206] (-) TimerEvent: {}
+[8.927590] (-) TimerEvent: {}
+[9.027897] (-) TimerEvent: {}
+[9.128216] (-) TimerEvent: {}
+[9.228549] (-) TimerEvent: {}
+[9.328946] (-) TimerEvent: {}
+[9.429274] (-) TimerEvent: {}
+[9.529720] (-) TimerEvent: {}
+[9.630050] (-) TimerEvent: {}
+[9.730373] (-) TimerEvent: {}
+[9.830715] (-) TimerEvent: {}
+[9.931145] (-) TimerEvent: {}
+[10.031451] (-) TimerEvent: {}
+[10.131877] (-) TimerEvent: {}
+[10.232231] (-) TimerEvent: {}
+[10.332583] (-) TimerEvent: {}
+[10.432922] (-) TimerEvent: {}
+[10.533308] (-) TimerEvent: {}
+[10.633704] (-) TimerEvent: {}
+[10.734183] (-) TimerEvent: {}
+[10.834527] (-) TimerEvent: {}
+[10.934862] (-) TimerEvent: {}
+[11.035215] (-) TimerEvent: {}
+[11.135556] (-) TimerEvent: {}
+[11.235983] (-) TimerEvent: {}
+[11.336302] (-) TimerEvent: {}
+[11.436727] (-) TimerEvent: {}
+[11.537035] (-) TimerEvent: {}
+[11.637496] (-) TimerEvent: {}
+[11.737835] (-) TimerEvent: {}
+[11.838173] (-) TimerEvent: {}
+[11.938568] (-) TimerEvent: {}
+[12.038906] (-) TimerEvent: {}
+[12.139354] (-) TimerEvent: {}
+[12.239664] (-) TimerEvent: {}
+[12.340112] (-) TimerEvent: {}
+[12.440530] (-) TimerEvent: {}
+[12.540875] (-) TimerEvent: {}
+[12.641239] (-) TimerEvent: {}
+[12.741582] (-) TimerEvent: {}
+[12.841993] (-) TimerEvent: {}
+[12.942311] (-) TimerEvent: {}
+[13.042628] (-) TimerEvent: {}
+[13.142994] (-) TimerEvent: {}
+[13.243332] (-) TimerEvent: {}
+[13.343728] (-) TimerEvent: {}
+[13.444038] (-) TimerEvent: {}
+[13.544367] (-) TimerEvent: {}
+[13.644678] (-) TimerEvent: {}
+[13.745073] (-) TimerEvent: {}
+[13.845387] (-) TimerEvent: {}
+[13.945837] (-) TimerEvent: {}
+[14.046154] (-) TimerEvent: {}
+[14.146517] (-) TimerEvent: {}
+[14.246837] (-) TimerEvent: {}
+[14.347169] (-) TimerEvent: {}
+[14.447634] (-) TimerEvent: {}
+[14.547965] (-) TimerEvent: {}
+[14.648423] (-) TimerEvent: {}
+[14.748737] (-) TimerEvent: {}
+[14.849060] (-) TimerEvent: {}
+[14.949412] (-) TimerEvent: {}
+[15.049752] (-) TimerEvent: {}
+[15.150076] (-) TimerEvent: {}
+[15.250521] (-) TimerEvent: {}
+[15.350862] (-) TimerEvent: {}
+[15.451258] (-) TimerEvent: {}
+[15.551582] (-) TimerEvent: {}
+[15.652029] (-) TimerEvent: {}
+[15.752459] (-) TimerEvent: {}
+[15.852812] (-) TimerEvent: {}
+[15.953251] (-) TimerEvent: {}
+[16.053668] (-) TimerEvent: {}
+[16.153960] (-) TimerEvent: {}
+[16.254279] (-) TimerEvent: {}
+[16.354591] (-) TimerEvent: {}
+[16.454937] (-) TimerEvent: {}
+[16.555276] (-) TimerEvent: {}
+[16.655624] (-) TimerEvent: {}
+[16.755961] (-) TimerEvent: {}
+[16.860797] (-) TimerEvent: {}
+[16.974847] (-) TimerEvent: {}
+[17.075183] (-) TimerEvent: {}
+[17.175455] (-) TimerEvent: {}
+[17.275957] (-) TimerEvent: {}
+[17.377269] (-) TimerEvent: {}
+[17.478494] (-) TimerEvent: {}
+[17.581195] (-) TimerEvent: {}
+[17.681656] (-) TimerEvent: {}
+[17.781953] (-) TimerEvent: {}
+[17.882313] (-) TimerEvent: {}
+[17.982644] (-) TimerEvent: {}
+[18.082983] (-) TimerEvent: {}
+[18.183324] (-) TimerEvent: {}
+[18.283685] (-) TimerEvent: {}
+[18.383971] (-) TimerEvent: {}
+[18.484485] (-) TimerEvent: {}
+[18.584793] (-) TimerEvent: {}
+[18.685414] (-) TimerEvent: {}
+[18.785722] (-) TimerEvent: {}
+[18.886088] (-) TimerEvent: {}
+[18.986489] (-) TimerEvent: {}
+[19.087467] (-) TimerEvent: {}
+[19.187812] (-) TimerEvent: {}
+[19.288113] (-) TimerEvent: {}
+[19.388439] (-) TimerEvent: {}
+[19.488772] (-) TimerEvent: {}
+[19.589109] (-) TimerEvent: {}
+[19.689453] (-) TimerEvent: {}
+[19.789753] (-) TimerEvent: {}
+[19.890154] (-) TimerEvent: {}
+[19.990468] (-) TimerEvent: {}
+[20.090805] (-) TimerEvent: {}
+[20.191115] (-) TimerEvent: {}
+[20.291459] (-) TimerEvent: {}
+[20.391786] (-) TimerEvent: {}
+[20.492111] (-) TimerEvent: {}
+[20.592435] (-) TimerEvent: {}
+[20.692783] (-) TimerEvent: {}
+[20.793133] (-) TimerEvent: {}
+[20.893429] (-) TimerEvent: {}
+[20.993789] (-) TimerEvent: {}
+[21.094250] (-) TimerEvent: {}
+[21.194592] (-) TimerEvent: {}
+[21.294917] (-) TimerEvent: {}
+[21.395251] (-) TimerEvent: {}
+[21.495638] (-) TimerEvent: {}
+[21.595970] (-) TimerEvent: {}
+[21.696427] (-) TimerEvent: {}
+[21.796716] (-) TimerEvent: {}
+[21.897119] (-) TimerEvent: {}
+[21.997446] (-) TimerEvent: {}
+[22.097892] (-) TimerEvent: {}
+[22.198313] (-) TimerEvent: {}
+[22.298839] (-) TimerEvent: {}
+[22.399145] (-) TimerEvent: {}
+[22.499491] (-) TimerEvent: {}
+[22.599892] (-) TimerEvent: {}
+[22.700219] (-) TimerEvent: {}
+[22.800551] (-) TimerEvent: {}
+[22.900846] (-) TimerEvent: {}
+[23.001134] (-) TimerEvent: {}
+[23.101426] (-) TimerEvent: {}
+[23.201809] (-) TimerEvent: {}
+[23.302124] (-) TimerEvent: {}
+[23.402579] (-) TimerEvent: {}
+[23.502890] (-) TimerEvent: {}
+[23.598378] (lio_sam) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX executable lio_sam_featureExtraction\x1b[0m\n'}
+[23.602970] (-) TimerEvent: {}
+[23.703243] (-) TimerEvent: {}
+[23.803553] (-) TimerEvent: {}
+[23.903980] (-) TimerEvent: {}
+[24.004486] (-) TimerEvent: {}
+[24.104896] (-) TimerEvent: {}
+[24.205292] (-) TimerEvent: {}
+[24.293584] (lio_sam) StdoutLine: {'line': b'[ 93%] Built target lio_sam_featureExtraction\n'}
+[24.305404] (-) TimerEvent: {}
+[24.405764] (-) TimerEvent: {}
+[24.506085] (-) TimerEvent: {}
+[24.606368] (-) TimerEvent: {}
+[24.706687] (-) TimerEvent: {}
+[24.807003] (-) TimerEvent: {}
+[24.907426] (-) TimerEvent: {}
+[25.007707] (-) TimerEvent: {}
+[25.108122] (-) TimerEvent: {}
+[25.208541] (-) TimerEvent: {}
+[25.308831] (-) TimerEvent: {}
+[25.409229] (-) TimerEvent: {}
+[25.509512] (-) TimerEvent: {}
+[25.609933] (-) TimerEvent: {}
+[25.710312] (-) TimerEvent: {}
+[25.810676] (-) TimerEvent: {}
+[25.910971] (-) TimerEvent: {}
+[26.011236] (-) TimerEvent: {}
+[26.111486] (-) TimerEvent: {}
+[26.211845] (-) TimerEvent: {}
+[26.312168] (-) TimerEvent: {}
+[26.412470] (-) TimerEvent: {}
+[26.512758] (-) TimerEvent: {}
+[26.613078] (-) TimerEvent: {}
+[26.713447] (-) TimerEvent: {}
+[26.813812] (-) TimerEvent: {}
+[26.914182] (-) TimerEvent: {}
+[27.014460] (-) TimerEvent: {}
+[27.114774] (-) TimerEvent: {}
+[27.215102] (-) TimerEvent: {}
+[27.315517] (-) TimerEvent: {}
+[27.415818] (-) TimerEvent: {}
+[27.516181] (-) TimerEvent: {}
+[27.616487] (-) TimerEvent: {}
+[27.716755] (-) TimerEvent: {}
+[27.817145] (-) TimerEvent: {}
+[27.917458] (-) TimerEvent: {}
+[28.017764] (-) TimerEvent: {}
+[28.080623] (lio_sam) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable lio_sam_imageProjection\x1b[0m\n'}
+[28.117876] (-) TimerEvent: {}
+[28.218175] (-) TimerEvent: {}
+[28.318476] (-) TimerEvent: {}
+[28.418778] (-) TimerEvent: {}
+[28.494175] (lio_sam) StdoutLine: {'line': b'[ 95%] Built target lio_sam_imageProjection\n'}
+[28.518998] (-) TimerEvent: {}
+[28.619286] (-) TimerEvent: {}
+[28.719568] (-) TimerEvent: {}
+[28.819884] (-) TimerEvent: {}
+[28.920190] (-) TimerEvent: {}
+[29.020494] (-) TimerEvent: {}
+[29.120907] (-) TimerEvent: {}
+[29.221284] (-) TimerEvent: {}
+[29.321676] (-) TimerEvent: {}
+[29.422079] (-) TimerEvent: {}
+[29.522455] (-) TimerEvent: {}
+[29.622734] (-) TimerEvent: {}
+[29.723147] (-) TimerEvent: {}
+[29.823447] (-) TimerEvent: {}
+[29.923855] (-) TimerEvent: {}
+[30.024171] (-) TimerEvent: {}
+[30.124561] (-) TimerEvent: {}
+[30.224848] (-) TimerEvent: {}
+[30.325253] (-) TimerEvent: {}
+[30.425644] (-) TimerEvent: {}
+[30.526016] (-) TimerEvent: {}
+[30.626282] (-) TimerEvent: {}
+[30.726567] (-) TimerEvent: {}
+[30.826927] (-) TimerEvent: {}
+[30.927202] (-) TimerEvent: {}
+[31.027510] (-) TimerEvent: {}
+[31.127887] (-) TimerEvent: {}
+[31.228113] (-) TimerEvent: {}
+[31.328404] (-) TimerEvent: {}
+[31.429005] (-) TimerEvent: {}
+[31.529299] (-) TimerEvent: {}
+[31.629610] (-) TimerEvent: {}
+[31.729946] (-) TimerEvent: {}
+[31.830336] (-) TimerEvent: {}
+[31.930656] (-) TimerEvent: {}
+[32.031006] (-) TimerEvent: {}
+[32.131314] (-) TimerEvent: {}
+[32.231653] (-) TimerEvent: {}
+[32.331945] (-) TimerEvent: {}
+[32.432267] (-) TimerEvent: {}
+[32.532590] (-) TimerEvent: {}
+[32.632905] (-) TimerEvent: {}
+[32.733297] (-) TimerEvent: {}
+[32.833565] (-) TimerEvent: {}
+[32.933866] (-) TimerEvent: {}
+[33.034149] (-) TimerEvent: {}
+[33.134486] (-) TimerEvent: {}
+[33.234911] (-) TimerEvent: {}
+[33.335323] (-) TimerEvent: {}
+[33.435627] (-) TimerEvent: {}
+[33.536200] (-) TimerEvent: {}
+[33.636490] (-) TimerEvent: {}
+[33.736822] (-) TimerEvent: {}
+[33.837112] (-) TimerEvent: {}
+[33.937429] (-) TimerEvent: {}
+[34.037758] (-) TimerEvent: {}
+[34.138187] (-) TimerEvent: {}
+[34.176700] (lio_sam) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable lio_sam_imuPreintegration\x1b[0m\n'}
+[34.238349] (-) TimerEvent: {}
+[34.338661] (-) TimerEvent: {}
+[34.439116] (-) TimerEvent: {}
+[34.539461] (-) TimerEvent: {}
+[34.639843] (-) TimerEvent: {}
+[34.657942] (lio_sam) StdoutLine: {'line': b'[ 97%] Built target lio_sam_imuPreintegration\n'}
+[34.740091] (-) TimerEvent: {}
+[34.840519] (-) TimerEvent: {}
+[34.940975] (-) TimerEvent: {}
+[35.041453] (-) TimerEvent: {}
+[35.141765] (-) TimerEvent: {}
+[35.242331] (-) TimerEvent: {}
+[35.342745] (-) TimerEvent: {}
+[35.443146] (-) TimerEvent: {}
+[35.543538] (-) TimerEvent: {}
+[35.643829] (-) TimerEvent: {}
+[35.744172] (-) TimerEvent: {}
+[35.844501] (-) TimerEvent: {}
+[35.944828] (-) TimerEvent: {}
+[36.045189] (-) TimerEvent: {}
+[36.145526] (-) TimerEvent: {}
+[36.245873] (-) TimerEvent: {}
+[36.346213] (-) TimerEvent: {}
+[36.446537] (-) TimerEvent: {}
+[36.546886] (-) TimerEvent: {}
+[36.647196] (-) TimerEvent: {}
+[36.747446] (-) TimerEvent: {}
+[36.847793] (-) TimerEvent: {}
+[36.948146] (-) TimerEvent: {}
+[37.048374] (-) TimerEvent: {}
+[37.148630] (-) TimerEvent: {}
+[37.248959] (-) TimerEvent: {}
+[37.349193] (-) TimerEvent: {}
+[37.449519] (-) TimerEvent: {}
+[37.549790] (-) TimerEvent: {}
+[37.650148] (-) TimerEvent: {}
+[37.750391] (-) TimerEvent: {}
+[37.850726] (-) TimerEvent: {}
+[37.951074] (-) TimerEvent: {}
+[38.051326] (-) TimerEvent: {}
+[38.151676] (-) TimerEvent: {}
+[38.252029] (-) TimerEvent: {}
+[38.352414] (-) TimerEvent: {}
+[38.452700] (-) TimerEvent: {}
+[38.552943] (-) TimerEvent: {}
+[38.653215] (-) TimerEvent: {}
+[38.753526] (-) TimerEvent: {}
+[38.853785] (-) TimerEvent: {}
+[38.954126] (-) TimerEvent: {}
+[39.054448] (-) TimerEvent: {}
+[39.154778] (-) TimerEvent: {}
+[39.255109] (-) TimerEvent: {}
+[39.355334] (-) TimerEvent: {}
+[39.455553] (-) TimerEvent: {}
+[39.555873] (-) TimerEvent: {}
+[39.656200] (-) TimerEvent: {}
+[39.756439] (-) TimerEvent: {}
+[39.856702] (-) TimerEvent: {}
+[39.956962] (-) TimerEvent: {}
+[40.057289] (-) TimerEvent: {}
+[40.157626] (-) TimerEvent: {}
+[40.257958] (-) TimerEvent: {}
+[40.358386] (-) TimerEvent: {}
+[40.458624] (-) TimerEvent: {}
+[40.558879] (-) TimerEvent: {}
+[40.659212] (-) TimerEvent: {}
+[40.759530] (-) TimerEvent: {}
+[40.859776] (-) TimerEvent: {}
+[40.960098] (-) TimerEvent: {}
+[41.068717] (-) TimerEvent: {}
+[41.169053] (-) TimerEvent: {}
+[41.269279] (-) TimerEvent: {}
+[41.369608] (-) TimerEvent: {}
+[41.469867] (-) TimerEvent: {}
+[41.570139] (-) TimerEvent: {}
+[41.670402] (-) TimerEvent: {}
+[41.770833] (-) TimerEvent: {}
+[41.871176] (-) TimerEvent: {}
+[41.971511] (-) TimerEvent: {}
+[42.071857] (-) TimerEvent: {}
+[42.172220] (-) TimerEvent: {}
+[42.272570] (-) TimerEvent: {}
+[42.372845] (-) TimerEvent: {}
+[42.473170] (-) TimerEvent: {}
+[42.573602] (-) TimerEvent: {}
+[42.673976] (-) TimerEvent: {}
+[42.774348] (-) TimerEvent: {}
+[42.874696] (-) TimerEvent: {}
+[42.975062] (-) TimerEvent: {}
+[43.075412] (-) TimerEvent: {}
+[43.175751] (-) TimerEvent: {}
+[43.276094] (-) TimerEvent: {}
+[43.376425] (-) TimerEvent: {}
+[43.476767] (-) TimerEvent: {}
+[43.577116] (-) TimerEvent: {}
+[43.677359] (-) TimerEvent: {}
+[43.777633] (-) TimerEvent: {}
+[43.877896] (-) TimerEvent: {}
+[43.978250] (-) TimerEvent: {}
+[44.078577] (-) TimerEvent: {}
+[44.178897] (-) TimerEvent: {}
+[44.279244] (-) TimerEvent: {}
+[44.379563] (-) TimerEvent: {}
+[44.479909] (-) TimerEvent: {}
+[44.580161] (-) TimerEvent: {}
+[44.680495] (-) TimerEvent: {}
+[44.780813] (-) TimerEvent: {}
+[44.881152] (-) TimerEvent: {}
+[44.981472] (-) TimerEvent: {}
+[45.081726] (-) TimerEvent: {}
+[45.181980] (-) TimerEvent: {}
+[45.282191] (-) TimerEvent: {}
+[45.382438] (-) TimerEvent: {}
+[45.482765] (-) TimerEvent: {}
+[45.583095] (-) TimerEvent: {}
+[45.683391] (-) TimerEvent: {}
+[45.783747] (-) TimerEvent: {}
+[45.884091] (-) TimerEvent: {}
+[45.984339] (-) TimerEvent: {}
+[46.084636] (-) TimerEvent: {}
+[46.184895] (-) TimerEvent: {}
+[46.285196] (-) TimerEvent: {}
+[46.385516] (-) TimerEvent: {}
+[46.485779] (-) TimerEvent: {}
+[46.586095] (-) TimerEvent: {}
+[46.686339] (-) TimerEvent: {}
+[46.786624] (-) TimerEvent: {}
+[46.886959] (-) TimerEvent: {}
+[46.987311] (-) TimerEvent: {}
+[47.087646] (-) TimerEvent: {}
+[47.187974] (-) TimerEvent: {}
+[47.288308] (-) TimerEvent: {}
+[47.388638] (-) TimerEvent: {}
+[47.488974] (-) TimerEvent: {}
+[47.589189] (-) TimerEvent: {}
+[47.689519] (-) TimerEvent: {}
+[47.789848] (-) TimerEvent: {}
+[47.890171] (-) TimerEvent: {}
+[47.990442] (-) TimerEvent: {}
+[48.090760] (-) TimerEvent: {}
+[48.191099] (-) TimerEvent: {}
+[48.291356] (-) TimerEvent: {}
+[48.391683] (-) TimerEvent: {}
+[48.492009] (-) TimerEvent: {}
+[48.592354] (-) TimerEvent: {}
+[48.692697] (-) TimerEvent: {}
+[48.793039] (-) TimerEvent: {}
+[48.893291] (-) TimerEvent: {}
+[48.993612] (-) TimerEvent: {}
+[49.093937] (-) TimerEvent: {}
+[49.194284] (-) TimerEvent: {}
+[49.294531] (-) TimerEvent: {}
+[49.394805] (-) TimerEvent: {}
+[49.495085] (-) TimerEvent: {}
+[49.595561] (-) TimerEvent: {}
+[49.695877] (-) TimerEvent: {}
+[49.796220] (-) TimerEvent: {}
+[49.896499] (-) TimerEvent: {}
+[49.996767] (-) TimerEvent: {}
+[50.097092] (-) TimerEvent: {}
+[50.197431] (-) TimerEvent: {}
+[50.297767] (-) TimerEvent: {}
+[50.398017] (-) TimerEvent: {}
+[50.498256] (-) TimerEvent: {}
+[50.598495] (-) TimerEvent: {}
+[50.698831] (-) TimerEvent: {}
+[50.799074] (-) TimerEvent: {}
+[50.899340] (-) TimerEvent: {}
+[50.999674] (-) TimerEvent: {}
+[51.100006] (-) TimerEvent: {}
+[51.200245] (-) TimerEvent: {}
+[51.300534] (-) TimerEvent: {}
+[51.400859] (-) TimerEvent: {}
+[51.496398] (lio_sam) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable lio_sam_mapOptimization\x1b[0m\n'}
+[51.501047] (-) TimerEvent: {}
+[51.601360] (-) TimerEvent: {}
+[51.701639] (-) TimerEvent: {}
+[51.801930] (-) TimerEvent: {}
+[51.890990] (lio_sam) StderrLine: {'line': b'/usr/bin/ld: warning: libtbb.so.2, needed by /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.5.4d, may conflict with libtbb.so.12\n'}
+[51.902035] (-) TimerEvent: {}
+[52.002417] (-) TimerEvent: {}
+[52.065189] (lio_sam) StdoutLine: {'line': b'[100%] Built target lio_sam_mapOptimization\n'}
+[52.077188] (lio_sam) CommandEnded: {'returncode': 0}
+[52.078095] (lio_sam) JobProgress: {'identifier': 'lio_sam', 'progress': 'install'}
+[52.078712] (lio_sam) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vijay/3d_rover/build/lio_sam'], 'cwd': '/home/vijay/3d_rover/build/lio_sam', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vijay'), ('LC_TIME', 'en_IN.UTF-8'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/vijay/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/221/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vijay/3d_rover/install/lio_sam/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vijay'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '0'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/vijay/3d_rover/src'), ('TERM_PROGRAM_VERSION', '1.109.0'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GTK_PATH', '/snap/code/221/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/vijay/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/221/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_IN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/221/usr/share/code/code'), ('MANAGERPID', '4889'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '5353'), ('BUNDLED_DEBUGPY_PATH', '/home/vijay/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('PYTHONNOUSERSITE', '1'), ('_CONDA_ROOT', '/home/vijay/miniconda3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '422078'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/vijay/3d_rover/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vijay'), ('JOURNAL_STREAM', '8:112253'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/vijay/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'vijay'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/vijay/rover4_ws/src/k12_description/models/:/home/vijay/rover4_ws/src/k12_description/models/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/vijay/PX4-Autopilot/Tools:/home/vijay/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/vijay/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/vijay/.local/bin:/home/vijay/bin:/home/vijay/PX4-Autopilot/Tools:/opt/ros/humble/bin:/home/vijay/miniconda3/condabin:/home/vijay/.cargo/bin:/home/vijay/.local/bin:/home/vijay/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/:/home/vijay/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts:/opt/xtensa-esp-elf/bin/'), ('SESSION_MANAGER', 'local/vijay:@/tmp/.ICE-unix/5330,unix/vijay:/tmp/.ICE-unix/5330'), ('GTK_EXE_PREFIX', '/snap/code/221/usr'), ('INVOCATION_ID', '1444f620c23140d2907fa0f53a06860f'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_IN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LOCPATH', '/snap/code/221/usr/lib/locale'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/vijay/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-af86fbce4e1a1278.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/vijay/.config/Code/User/workspaceStorage/67efb9897b92dc4202899ba9a16a079a/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'en_IN.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/vijay/snap/code/221/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-aa852052d4.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/vijay/snap/code/221/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/vijay/3d_rover/install/lio_sam:/home/vijay/3d_rover/install/k12_description:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/vijay/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_IN.UTF-8'), ('ZENOH_CONNECT', 'tcp/10.147.42.82:7447'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'en_IN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/vijay/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'en_IN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vijay/3d_rover/build/lio_sam'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('CONDA_EXE', '/home/vijay/miniconda3/bin/conda'), ('GAZEBO_PLUGIN_PATH', '/opt/ros/humble/lib:/opt/ros/humble/lib:'), ('XDG_DATA_DIRS', '/home/vijay/snap/code/221/.local/share/flatpak/exports/share:/home/vijay/snap/code/221/.local/share:/home/vijay/snap/code/221:/snap/code/221/usr/share:/usr/share/ubuntu-xorg:/usr/share/gnome:/home/vijay/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_IN.UTF-8'), ('LC_PAPER', 'en_IN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/vijay/3d_rover/install/lio_sam:/home/vijay/3d_rover/install/k12_description:/opt/ros/humble')]), 'shell': False}
+[52.086394] (lio_sam) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[52.087394] (lio_sam) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[52.088206] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/ament_index/resource_index/rosidl_interfaces/lio_sam\n'}
+[52.089431] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/msg/cloud_info.h\n'}
+[52.089537] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__functions.h\n'}
+[52.089613] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__struct.h\n'}
+[52.089683] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__type_support.h\n'}
+[52.089778] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_generator_c__visibility_control.h\n'}
+[52.089940] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__functions.h\n'}
+[52.090030] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__struct.h\n'}
+[52.090120] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__type_support.h\n'}
+[52.090218] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/srv/save_map.h\n'}
+[52.090871] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/environment/library_path.sh\n'}
+[52.090991] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/environment/library_path.dsv\n'}
+[52.091657] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_fastrtps_c.h\n'}
+[52.091706] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[52.091768] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h\n'}
+[52.092496] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_introspection_c.h\n'}
+[52.092556] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[52.092632] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_introspection_c.h\n'}
+[52.093184] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/msg/cloud_info.hpp\n'}
+[52.093264] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__builder.hpp\n'}
+[52.093335] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__struct.hpp\n'}
+[52.093478] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__traits.hpp\n'}
+[52.093543] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__type_support.hpp\n'}
+[52.093616] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[52.093680] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__builder.hpp\n'}
+[52.093743] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__struct.hpp\n'}
+[52.093805] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__traits.hpp\n'}
+[52.093870] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__type_support.hpp\n'}
+[52.093932] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/srv/save_map.hpp\n'}
+[52.094767] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[52.094818] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[52.094895] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[52.095608] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[52.095662] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp\n'}
+[52.095767] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/environment/pythonpath.sh\n'}
+[52.095862] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/environment/pythonpath.dsv\n'}
+[52.096456] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam-1.0.0-py3.10.egg-info/PKG-INFO\n'}
+[52.096504] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam-1.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[52.096574] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam-1.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[52.096664] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam-1.0.0-py3.10.egg-info/top_level.txt\n'}
+[52.097521] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/__init__.py\n'}
+[52.097578] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/_lio_sam_s.ep.rosidl_typesupport_c.c\n'}
+[52.097649] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/_lio_sam_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[52.097727] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/_lio_sam_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[52.097791] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/liblio_sam__rosidl_generator_py.so\n'}
+[52.097854] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[52.097920] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[52.097985] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[52.098103] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg/__init__.py\n'}
+[52.098167] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg/_cloud_info.py\n'}
+[52.098232] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg/_cloud_info_s.c\n'}
+[52.098340] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv/__init__.py\n'}
+[52.098403] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv/_save_map.py\n'}
+[52.098466] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv/_save_map_s.c\n'}
+[52.098662] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[52.098840] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[52.098986] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[52.099437] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/msg/CloudInfo.idl\n'}
+[52.099544] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/srv/SaveMap.idl\n'}
+[52.099783] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/msg/CloudInfo.msg\n'}
+[52.099875] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/srv/SaveMap.srv\n'}
+[52.100086] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/srv/SaveMap_Request.msg\n'}
+[52.100181] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/srv/SaveMap_Response.msg\n'}
+[52.100504] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam//launch/run.launch.py\n'}
+[52.101051] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam//config/doc/demo.gif\n'}
+[52.101106] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam//config/doc/device-boat.png\n'}
+[52.101161] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam//config/doc/device-hand-2.png\n'}
+[52.101214] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam//config/doc/device-hand.png\n'}
+[52.101274] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam//config/doc/device-jackal.png\n'}
+[52.101325] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam//config/doc/gps-demo.gif\n'}
+[52.101377] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam//config/doc/imu-debug.gif\n'}
+[52.101448] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam//config/doc/imu-transform.png\n'}
+[52.101495] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam//config/doc/kitti-demo.gif\n'}
+[52.101540] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam//config/doc/kitti-map.png\n'}
+[52.101789] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam//config/doc/kitti2bag/README.md\n'}
+[52.101864] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam//config/doc/kitti2bag/kitti2bag.py\n'}
+[52.101927] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam//config/doc/loop-closure-2.gif\n'}
+[52.101984] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam//config/doc/loop-closure.gif\n'}
+[52.102031] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam//config/doc/ouster-demo.gif\n'}
+[52.102095] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam//config/doc/ouster-device.jpg\n'}
+[52.102148] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam//config/doc/paper.pdf\n'}
+[52.102188] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam//config/doc/system.png\n'}
+[52.102237] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam//config/k12.xacro\n'}
+[52.102281] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam//config/params.yaml\n'}
+[52.102326] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam//config/rviz2.rviz\n'}
+[52.102460] (-) TimerEvent: {}
+[52.102563] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/lib/lio_sam/lio_sam_imageProjection\n'}
+[52.102945] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/lib/lio_sam/lio_sam_imuPreintegration\n'}
+[52.103187] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/lib/lio_sam/lio_sam_featureExtraction\n'}
+[52.103354] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/lib/lio_sam/lio_sam_mapOptimization\n'}
+[52.103691] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/include/lio_sam/utility.hpp\n'}
+[52.103864] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/ament_index/resource_index/package_run_dependencies/lio_sam\n'}
+[52.104212] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/ament_index/resource_index/parent_prefix_path/lio_sam\n'}
+[52.104958] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/environment/ament_prefix_path.sh\n'}
+[52.105034] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/environment/ament_prefix_path.dsv\n'}
+[52.105154] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/environment/path.sh\n'}
+[52.105259] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/environment/path.dsv\n'}
+[52.105352] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/local_setup.bash\n'}
+[52.105440] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/local_setup.sh\n'}
+[52.105523] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/local_setup.zsh\n'}
+[52.105632] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/local_setup.dsv\n'}
+[52.105683] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/package.dsv\n'}
+[52.116248] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/ament_index/resource_index/packages/lio_sam\n'}
+[52.116552] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/cmake/rosidl_cmake-extras.cmake\n'}
+[52.116684] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[52.116934] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[52.117127] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[52.117340] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[52.117603] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[52.117831] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[52.118127] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/cmake/lio_samConfig.cmake\n'}
+[52.118310] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/cmake/lio_samConfig-version.cmake\n'}
+[52.118414] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/package.xml\n'}
+[52.119428] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/vijay/3d_rover/install/lio_sam/lib/liblio_sam__rosidl_generator_c.so\n'}
+[52.120013] (lio_sam) StdoutLine: {'line': b'-- Set runtime path of "/home/vijay/3d_rover/install/lio_sam/lib/liblio_sam__rosidl_generator_c.so" to ""\n'}
+[52.120432] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/vijay/3d_rover/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_c.so\n'}
+[52.120942] (lio_sam) StdoutLine: {'line': b'-- Set runtime path of "/home/vijay/3d_rover/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[52.121710] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/vijay/3d_rover/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_c.so\n'}
+[52.122242] (lio_sam) StdoutLine: {'line': b'-- Set runtime path of "/home/vijay/3d_rover/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_c.so" to ""\n'}
+[52.122797] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/vijay/3d_rover/install/lio_sam/lib/liblio_sam__rosidl_typesupport_c.so\n'}
+[52.123340] (lio_sam) StdoutLine: {'line': b'-- Set runtime path of "/home/vijay/3d_rover/install/lio_sam/lib/liblio_sam__rosidl_typesupport_c.so" to ""\n'}
+[52.123978] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/vijay/3d_rover/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_cpp.so\n'}
+[52.124457] (lio_sam) StdoutLine: {'line': b'-- Set runtime path of "/home/vijay/3d_rover/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[52.125165] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/vijay/3d_rover/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_cpp.so\n'}
+[52.125660] (lio_sam) StdoutLine: {'line': b'-- Set runtime path of "/home/vijay/3d_rover/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[52.125895] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/vijay/3d_rover/install/lio_sam/lib/liblio_sam__rosidl_typesupport_cpp.so\n'}
+[52.126128] (lio_sam) StdoutLine: {'line': b'-- Set runtime path of "/home/vijay/3d_rover/install/lio_sam/lib/liblio_sam__rosidl_typesupport_cpp.so" to ""\n'}
+[52.165612] (lio_sam) StdoutLine: {'line': b"Listing '/home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam'...\n"}
+[52.165740] (lio_sam) StdoutLine: {'line': b"Compiling '/home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/__init__.py'...\n"}
+[52.165785] (lio_sam) StdoutLine: {'line': b"Listing '/home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg'...\n"}
+[52.165815] (lio_sam) StdoutLine: {'line': b"Listing '/home/vijay/3d_rover/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv'...\n"}
+[52.168789] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/vijay/3d_rover/install/lio_sam/lib/liblio_sam__rosidl_generator_py.so\n'}
+[52.169314] (lio_sam) StdoutLine: {'line': b'-- Set runtime path of "/home/vijay/3d_rover/install/lio_sam/lib/liblio_sam__rosidl_generator_py.so" to ""\n'}
+[52.169673] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_cExport.cmake\n'}
+[52.169820] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_cExport-release.cmake\n'}
+[52.169961] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[52.170052] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cExport-release.cmake\n'}
+[52.170138] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cExport.cmake\n'}
+[52.170202] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[52.170297] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cExport.cmake\n'}
+[52.170360] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cExport-release.cmake\n'}
+[52.170428] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_cppExport.cmake\n'}
+[52.170500] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[52.170559] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cppExport-release.cmake\n'}
+[52.170635] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[52.170715] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[52.170791] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cppExport.cmake\n'}
+[52.170871] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cppExport-release.cmake\n'}
+[52.170957] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_pyExport.cmake\n'}
+[52.171018] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vijay/3d_rover/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_pyExport-release.cmake\n'}
+[52.172866] (lio_sam) CommandEnded: {'returncode': 0}
+[52.186084] (lio_sam) JobEnded: {'identifier': 'lio_sam', 'rc': 0}
+[52.186784] (-) EventReactorShutdown: {}

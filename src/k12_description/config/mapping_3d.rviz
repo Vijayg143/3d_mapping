@@ -1,0 +1,60 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+  - Class: rviz_common/Views
+    Name: Views
+Visualization Manager:
+  Displays:
+    - Class: rviz_default_plugins/Grid
+      Name: Grid
+      Value: true
+      Cell Size: 1
+      Plane Cell Count: 50
+      
+    - Class: rviz_default_plugins/TF
+      Name: TF
+      Value: true
+      Show Names: false
+      Show Axes: true
+      
+    - Class: rviz_default_plugins/RobotModel
+      Name: RobotModel
+      Value: true
+      Description Source: Topic
+      Description Topic: /robot_description
+      
+    - Alpha: 1
+      Class: rviz_default_plugins/PointCloud2
+      Name: LiDAR
+      Topic: /velodyne_points
+      Value: true
+      Size (m): 0.03
+      Color Transformer: Intensity
+      Decay Time: 0
+      
+    - Alpha: 0.8
+      Class: octomap_rviz_plugins/OccupancyGrid
+      Name: OctoMap
+      Topic: /octomap_binary
+      Value: true
+      
+    - Alpha: 0.5
+      Class: octomap_rviz_plugins/OccupiedCells
+      Name: OccupiedCells
+      Topic: /octomap_point_cloud_centers
+      Value: true
+      
+  Global Options:
+    Fixed Frame: map
+    Frame Rate: 30
+  Name: root
+  Tools:
+    - Class: rviz_default_plugins/Interact
+    - Class: rviz_default_plugins/MoveCamera
+    - Class: rviz_default_plugins/Select
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 15
+      Pitch: 0.5
+      Yaw: 0.8

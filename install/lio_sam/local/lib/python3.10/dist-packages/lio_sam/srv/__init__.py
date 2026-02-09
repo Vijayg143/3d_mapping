@@ -1,0 +1,1 @@
+/home/vijay/3d_rover/build/lio_sam/rosidl_generator_py/lio_sam/srv/__init__.py

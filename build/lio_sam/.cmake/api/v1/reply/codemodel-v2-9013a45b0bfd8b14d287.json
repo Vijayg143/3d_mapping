@@ -1,0 +1,269 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-0a2ac735b11dc395f1d7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				},
+				{
+					"build" : "lio_sam__py",
+					"jsonFile" : "directory-lio_sam__py-Release-9e0b1885ba4a3e493452.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/vijay/3d_rover/build/lio_sam/lio_sam__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "lio_sam",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_lio_sam_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_lio_sam_egg-Release-fa22cfd81211fcea076a.json",
+					"name" : "ament_cmake_python_build_lio_sam_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_lio_sam::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_lio_sam-Release-20a64f0dd37e141e2916.json",
+					"name" : "ament_cmake_python_symlink_lio_sam",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lio_sam::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lio_sam-Release-604cde5cd0db73c090a3.json",
+					"name" : "lio_sam",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lio_sam__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lio_sam__cpp-Release-fcc139d8c919669e13a6.json",
+					"name" : "lio_sam__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "lio_sam__py::@253f49d455fbabb89406",
+					"jsonFile" : "target-lio_sam__py-Release-45e71f9d081326f7cf8d.json",
+					"name" : "lio_sam__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lio_sam__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lio_sam__rosidl_generator_c-Release-054cf54753638820887a.json",
+					"name" : "lio_sam__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lio_sam__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lio_sam__rosidl_generator_py-Release-5b516cc35c4215ee2d7e.json",
+					"name" : "lio_sam__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lio_sam__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lio_sam__rosidl_typesupport_c-Release-c8053d9b4b8969f3425d.json",
+					"name" : "lio_sam__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lio_sam__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lio_sam__rosidl_typesupport_c__pyext-Release-755ec73e42228857805f.json",
+					"name" : "lio_sam__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lio_sam__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lio_sam__rosidl_typesupport_cpp-Release-d552150e3d2c083e8a65.json",
+					"name" : "lio_sam__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lio_sam__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lio_sam__rosidl_typesupport_fastrtps_c-Release-165a21b347f4074793d3.json",
+					"name" : "lio_sam__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lio_sam__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lio_sam__rosidl_typesupport_fastrtps_c__pyext-Release-f347d595c47bc0444921.json",
+					"name" : "lio_sam__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lio_sam__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lio_sam__rosidl_typesupport_fastrtps_cpp-Release-6f24bb4b1fabd9973318.json",
+					"name" : "lio_sam__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lio_sam__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lio_sam__rosidl_typesupport_introspection_c-Release-d66ce1215361683ae3a6.json",
+					"name" : "lio_sam__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lio_sam__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lio_sam__rosidl_typesupport_introspection_c__pyext-Release-79b8e273e31e65a1b833.json",
+					"name" : "lio_sam__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lio_sam__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lio_sam__rosidl_typesupport_introspection_cpp-Release-3cca8853c74e28eb71d6.json",
+					"name" : "lio_sam__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lio_sam_featureExtraction::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lio_sam_featureExtraction-Release-0d3606ba2d59221c300f.json",
+					"name" : "lio_sam_featureExtraction",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lio_sam_imageProjection::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lio_sam_imageProjection-Release-3cd8fad77da7e57f68f2.json",
+					"name" : "lio_sam_imageProjection",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lio_sam_imuPreintegration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lio_sam_imuPreintegration-Release-19bfa5a5623fcdf7090e.json",
+					"name" : "lio_sam_imuPreintegration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lio_sam_mapOptimization::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lio_sam_mapOptimization-Release-53aaeb721e9cfbf80eb7.json",
+					"name" : "lio_sam_mapOptimization",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lio_sam_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lio_sam_uninstall-Release-beb08e178063349803f7.json",
+					"name" : "lio_sam_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-c61cba7ce4e40d0c6848.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/vijay/3d_rover/build/lio_sam",
+		"source" : "/home/vijay/3d_rover/src/LIO-SAM"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
